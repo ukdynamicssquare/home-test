@@ -10718,3 +10718,17 @@ inner-info-left ul li span{}
   display: block;
   width: 80%;
 }
+
+@media (max-width:1400px){
+  .tabs-service-slide>.nav-tabs .nav-link{
+    max-width: 15.5%;
+  }
+  .hero-home {
+    padding-top: 80px;
+}
+}
+@media (max-width:1200px){
+  .tabs-service-slide>.nav-tabs .nav-link{
+    max-width: 15%;
+  }
+}

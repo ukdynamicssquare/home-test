@@ -297,7 +297,7 @@ export default function Home() {
         <section id="h-banner" className="hero hero-home">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-8 text-center">
+              <div className="col-lg-10 text-center">
                 <h1 data-aos="fade-up">
                   UK's <span>Trusted</span>  Microsoft <br /> Dynamics 365 Partner
                 </h1>
