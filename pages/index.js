@@ -458,7 +458,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="tab-pane fade" id="nav-service-two" role="tabpanel" aria-labelledby="nav-service-two-tab">
-                  <div className="tab-inner-contant-one">
+                    <div className="tab-inner-contant-one">
                       <div className="left-sect">
                         <figure>
                           <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
@@ -520,68 +520,6 @@ export default function Home() {
                   </div>
 
                   <div className="tab-pane fade" id="nav-service-three" role="tabpanel" aria-labelledby="nav-service-three-tab">
-                  <div className="tab-inner-contant-one">
-                      <div className="left-sect">
-                        <figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure>
-                        <div className="inner-info-left">
-                          <h3>Dynamics 365 Business Central</h3>
-                          <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
-                          <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Gain insights with integrated financial tools in Business Central</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Grow confidently with Business Central's flexible platform</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Make informed decisions with embedded data analytics.</span></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="right-sect">
-                        <div className="d-colomn">
-                          <figure>
-                            <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
-                            <span>Integrated Business Processes</span>
-                          </figure>
-                        </div>
-                        <div className="d-colomn">
-                          <figure>
-                            <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
-                            <span>Enhanced Productivity</span>
-                          </figure>
-                        </div>
-                        <div className="d-colomn">
-                          <figure>
-                            <img src="/img/data_exploration.png" alt="data_exploration" />
-                            <span>Data-Driven Decision-Making</span>
-                          </figure>
-                        </div>
-                        <div className="d-colomn">
-                          <figure>
-                            <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
-                            <span>Scalability and Flexibility</span>
-                          </figure>
-                        </div>
-                        <div className="d-colomn">
-                          <figure>
-                            <img src="/img/cloud_done.png" alt="cloud_done" />
-                            <span>Cloud-Based Accessibility</span>
-                          </figure>
-                        </div>
-                        <div className="bnn">
-                          <Link href="#exampleModal">
-                            <a
-                              data-bs-toggle="modal"
-                              className="btn-get-started scrollto"
-                            >
-                              <span>Get Started</span>
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-
-                    <div className="tab-pane fade" id="nav-service-four" role="tabpanel" aria-labelledby="nav-service-four-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
                         <figure>
@@ -641,9 +579,9 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    </div>
+                  </div>
 
-                    <div className="tab-pane fade" id="nav-service-five" role="tabpanel" aria-labelledby="nav-service-five-tab">
+                  <div className="tab-pane fade" id="nav-service-four" role="tabpanel" aria-labelledby="nav-service-four-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
                         <figure>
@@ -703,9 +641,9 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    </div>
+                  </div>
 
-                    <div className="tab-pane fade" id="nav-service-six" role="tabpanel" aria-labelledby="nav-service-six-tab">
+                  <div className="tab-pane fade" id="nav-service-five" role="tabpanel" aria-labelledby="nav-service-five-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
                         <figure>
@@ -765,7 +703,69 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-service-six" role="tabpanel" aria-labelledby="nav-service-six-tab">
+                    <div className="tab-inner-contant-one">
+                      <div className="left-sect">
+                        <figure>
+                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                        </figure>
+                        <div className="inner-info-left">
+                          <h3>Dynamics 365 Business Central</h3>
+                          <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Gain insights with integrated financial tools in Business Central</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Grow confidently with Business Central's flexible platform</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Make informed decisions with embedded data analytics.</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
+                            <span>Integrated Business Processes</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
+                            <span>Enhanced Productivity</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/data_exploration.png" alt="data_exploration" />
+                            <span>Data-Driven Decision-Making</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
+                            <span>Scalability and Flexibility</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/cloud_done.png" alt="cloud_done" />
+                            <span>Cloud-Based Accessibility</span>
+                          </figure>
+                        </div>
+                        <div className="bnn">
+                          <Link href="#exampleModal">
+                            <a
+                              data-bs-toggle="modal"
+                              className="btn-get-started scrollto"
+                            >
+                              <span>Get Started</span>
+                            </a>
+                          </Link>
+                        </div>
+                      </div>
                     </div>
+                  </div>
 
 
                 </div>
@@ -778,7 +778,51 @@ export default function Home() {
           </div>
         </section>
 
-
+        <section className="m-botom-120">
+          <div className="container">
+            <div className="row mascot-bg">
+              <div className="col-lg-6">
+              <div className="mas-left">
+                 <div className="text-ar">
+                 <h3>Looking for a Dynamics 365 <br /> implementation partner?</h3>
+                  <Link href="#exampleModal">
+                      <a
+                        data-bs-toggle="modal"
+                        className="scrollto-tops"
+                      >
+                        <span>Get Started <i className="bi bi-arrow-right"></i></span>
+                      </a>
+                    </Link>
+                 </div>
+                  <video className="video-l" autoPlay loop muted poster="/img/h-bnner.png">
+                <source src="/video/animation-hover.mp4" />
+              </video>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="mas-left-right">
+                  <div className="text-ar">
+                  <h3>Want to know what more <br />Dynamics 365 can do?</h3>
+                  <Link href="#exampleModal">
+                      <a
+                        data-bs-toggle="modal"
+                        className="scrollto-tops-right"
+                      >
+                        <span>Get Started <i className="bi bi-arrow-right"></i></span>
+                      </a>
+                    </Link>
+                  </div>
+                  <video className="video-r" autoPlay loop muted poster="/img/h-bnner.png">
+                <source src="/video/animation-hover.mp4" />
+              </video>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="post-mas"><img src="/img/mascut-png.png" alt="" /></div>
+              </div>
+            </div>
+          </div>
+        </section>
 
 
       </main>

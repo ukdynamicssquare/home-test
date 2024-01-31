@@ -10718,6 +10718,107 @@ inner-info-left ul li span{}
   display: block;
   width: 80%;
 }
+.m-botom-120{
+  margin-bottom:200px
+}
+
+.mascot-bg{
+  border-radius: 164px;
+  border: solid 1px #f0eff3;
+  background-image: radial-gradient(circle at 50% 136%, #7865af, #393053 89%);
+  padding:80px 0px;
+  position:relative
+}
+.mas-left,.mas-left-right{
+  position:relative;
+}
+.mas-left h3{
+  font-size:24px;
+  color: #f7f9fb;
+  padding-left: 60px;
+  transition: .4s;
+}
+.mas-left-right h3{
+  font-size:24px;
+  color: #f7f9fb;
+  padding-right: 60px;
+  text-align:right;
+  transition: .4s;
+}
+.mas-left .video-l{
+  position: absolute;
+    transition: .4s;
+    mix-blend-mode: screen;
+    right: 16px;
+    width: 100%;
+    top: -105px;
+}
+.mas-left .video-l,.mas-left-right .video-r{
+  opacity:0;
+  visibility:hidden
+}
+.mas-left:hover h3,.mas-left-right:hover h3{
+  transform: translateY(-25px);
+}
+.mas-left:hover .video-l,.mas-left-right:hover .video-r{
+  opacity:1;
+  visibility:visible
+}
+.post-mas{
+  position: absolute;
+  left:50%;
+      transform: translateX(-50%);
+    bottom: -60px;
+}
+.video-r{
+  transform: scaleX(-1);
+  position: absolute;
+    transition: .4s;
+    mix-blend-mode: screen;
+    left: 16px;
+    width: 100%;
+    top: -105px;
+}
+.post-mas img{
+  width: 320px;
+}
+.scrollto-tops{
+  text-align: center;
+    margin-left: 63px;
+    margin-top: 0px;
+    position: absolute;
+    bottom: -10px;
+    z-index: 1;
+    transition: .4s;
+    color: #d1bfff;
+}
+.scrollto-tops-right{
+  text-align: center;
+  right: 62px;
+    margin-top: 0px;
+    position: absolute;
+    bottom: -10px;
+    z-index: 1;
+    transition: .4s;
+    color: #d1bfff;
+}
+.scrollto-tops:hover span,.scrollto-tops-right:hover span{
+  color:#fff;
+  background: transparent;
+}
+
+.scrollto-tops,.scrollto-tops-right{
+  opacity:0;
+  visibility:hidden;
+  transform: translateY(20px);
+}
+.mas-left:hover .scrollto-tops,.mas-left-right:hover .scrollto-tops-right{
+  opacity:1;
+  visibility:visible;
+  transform: translateY(6px);
+  color: #d1bfff;
+  background: transparent;
+}
 
 @media (max-width:1400px){
   .tabs-service-slide>.nav-tabs .nav-link{
@@ -10725,6 +10826,9 @@ inner-info-left ul li span{}
   }
   .hero-home {
     padding-top: 80px;
+}
+.mas-left .video-l,.mas-left .video-r{
+  top: -80px;
 }
 }
 @media (max-width:1200px){
