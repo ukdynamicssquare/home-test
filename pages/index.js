@@ -823,7 +823,104 @@ export default function Home() {
             </div>
           </div>
         </section>
-
+        
+        <section className="b--colo-new">
+          <div className="container">
+          <div className="row justify-content-center">
+              <div className="col-lg-12">
+                <header className="section-header section-header-home">
+                  <h2>Microsoft Business Apps: Innovative Solutions to Boost Business Performance</h2>
+                </header>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                    <figure>
+                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                    </figure>
+                    <h3>Implementation</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
+                    <a href="">CTA button</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                    <figure>
+                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                    </figure>
+                    <h3>Implementation</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
+                    <a href="">CTA button</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                    <figure>
+                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                    </figure>
+                    <h3>Implementation</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
+                    <a href="">CTA button</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                    <figure>
+                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                    </figure>
+                    <h3>Implementation</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
+                    <a href="">CTA button</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                    <figure>
+                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                    </figure>
+                    <h3>Implementation</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
+                    <a href="">CTA button</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                    <figure>
+                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                    </figure>
+                    <h3>Implementation</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
+                    <a href="">CTA button</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
       </main>
     </>
