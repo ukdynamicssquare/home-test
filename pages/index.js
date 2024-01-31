@@ -843,7 +843,7 @@ export default function Home() {
                     <h3>Implementation</h3>
                   </div>
                   <div className="app-body">
-                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
+                    <p>Supercharge your business efficiency with Dynamics 365 implementation services. Unify data, robust cloud security, simplify business operations, and automate workflows to minimize your IT costs.</p>
                     <a href="">CTA button</a>
                   </div>
                 </div>
@@ -852,9 +852,37 @@ export default function Home() {
                 <div className="business-app-card">
                   <div className="app-head">
                     <figure>
-                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                    <img src="/img/app-head-icons-2.png" alt="Implementation" />
                     </figure>
-                    <h3>Implementation</h3>
+                    <h3>Upgrade</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Modernize your business by utilizing cloud CRM and ERP solutions with Dynamics 365 Upgrade Services. We assess, recommend, and upgrade your legacy solution to garner more growth opportunities.</p>
+                    <a href="">CTA button</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                    <figure>
+                    <img src="/img/app-head-icons-3.png" alt="Implementation" />
+                    </figure>
+                    <h3>Support</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Get seamless Dynamics 365 Support services for consistent business growth, irrespective of complexities. 150+ technical consultants are available to offer personalized support at a cost-effective pricing structure.</p>
+                    <a href="">CTA button</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                    <figure>
+                    <img src="/img/app-head-icons-4.png" alt="Implementation" />
+                    </figure>
+                    <h3>Consulting</h3>
                   </div>
                   <div className="app-body">
                     <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
@@ -866,12 +894,12 @@ export default function Home() {
                 <div className="business-app-card">
                   <div className="app-head">
                     <figure>
-                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                    <img src="/img/app-head-icons-5.png" alt="Implementation" />
                     </figure>
-                    <h3>Implementation</h3>
+                    <h3>Audit</h3>
                   </div>
                   <div className="app-body">
-                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
+                    <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
                     <a href="">CTA button</a>
                   </div>
                 </div>
@@ -880,44 +908,110 @@ export default function Home() {
                 <div className="business-app-card">
                   <div className="app-head">
                     <figure>
-                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                    <img src="/img/app-head-icons-6.png" alt="Implementation" />
                     </figure>
-                    <h3>Implementation</h3>
+                    <h3>Training</h3>
                   </div>
                   <div className="app-body">
-                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
+                    <p>Reap utmost value by utilizing advanced features from your newly installed business solutions. We embrace a 360-degree training approach to help you achieve maximum results.</p>
                     <a href="">CTA button</a>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
-                <div className="business-app-card">
-                  <div className="app-head">
-                    <figure>
-                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
-                    </figure>
-                    <h3>Implementation</h3>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-12">
+                <header className="section-header section-header-home">
+                  <h2>Microsoft Business Apps: Innovative <br /> Solutions to Boost Business Performance</h2>
+                  <p>Microsoft business applications offer various efficient solutions for better ROI, including ERP <br /> (Dynamics NAV, AX), CRM (Dynamics 365 CE), and Power Platform (Power BI implementation).</p>
+                </header>
+              </div>
+            </div>
+            <div className="row">
+
+
+              <div className="tabs-service-slide-solution">
+                <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                  <button className="nav-link active" id="nav-industry-one-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-one" type="button" role="tab" aria-controls="nav-industry-one" aria-selected="true"><div className="rounded-circle"><img src="/img/rocket_launch.png" alt="StartUp" /></div><span>StartUp</span></button>
+                  <button className="nav-link" id="nav-industry-two-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-two" type="button" role="tab" aria-controls="nav-industry-two" aria-selected="true"><div className="rounded-circle"><img src="/img/volunteer_activism.png" alt="StartUp" /></div><span>Not for Profit</span></button>
+                  <button className="nav-link" id="nav-industry-three-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-three" type="button" role="tab" aria-controls="nav-industry-three" aria-selected="true"><div className="rounded-circle"><img src="/img/shopping_cart.png" alt="StartUp" /></div><span>E-commerce</span></button>
+                  <button className="nav-link" id="nav-industry-four-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-four" type="button" role="tab" aria-controls="nav-industry-four" aria-selected="true"><div className="rounded-circle"><img src="/img/local_shipping.png" alt="StartUp" /></div><span>Manufacturing</span></button>
+                  <button className="nav-link" id="nav-industry-five-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-five" type="button" role="tab" aria-controls="nav-industry-five" aria-selected="true"><div className="rounded-circle"><img src="/img/school.png" alt="StartUp" /></div><span>Education</span></button>
+                  <button className="nav-link" id="nav-industry-six-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-six" type="button" role="tab" aria-controls="nav-industry-six" aria-selected="true"><div className="rounded-circle"><img src="/img/fastfood.png" alt="StartUp" /></div><span>Food & Beverages</span></button>
+                  <button className="nav-link" id="nav-industry-seven-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-seven" type="button" role="tab" aria-controls="nav-industry-six" aria-selected="true"><div className="rounded-circle"><img src="/img/add_circle.png" alt="Explore More" /></div><span>Explore More</span></button>
+
+
+
+                </div>
+
+                <div className="tab-content" id="nav-tabContent">
+                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                    <div className="tab-industry-contant-one">
+                     
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                <source src="/video/rocket.mp4" />
+              </video>
+                        </div>
+                        
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>Not For Profit</span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
+                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                          </ul>
+                          <a href="" className="lins-indu">Know more about solutions</a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div className="app-body">
-                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
-                    <a href="">CTA button</a>
+                  <div className="tab-pane fade" id="nav-industry-two" role="tabpanel" aria-labelledby="nav-industry-two-tab">
+                   
+
                   </div>
+
+                  <div className="tab-pane fade" id="nav-industry-three" role="tabpanel" aria-labelledby="nav-industry-three-tab">
+                   
+
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-industry-four" role="tabpanel" aria-labelledby="nav-industry-four-tab">
+                    
+
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-industry-five" role="tabpanel" aria-labelledby="nav-industry-five-tab">
+                    
+
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-industry-six" role="tabpanel" aria-labelledby="nav-industry-six-tab">
+                    
+
+                  </div>
+
+
                 </div>
               </div>
-              <div className="col-lg-4">
-                <div className="business-app-card">
-                  <div className="app-head">
-                    <figure>
-                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
-                    </figure>
-                    <h3>Implementation</h3>
-                  </div>
-                  <div className="app-body">
-                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
-                    <a href="">CTA button</a>
-                  </div>
-                </div>
-              </div>
+
+
+
+
             </div>
           </div>
         </section>

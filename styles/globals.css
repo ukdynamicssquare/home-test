@@ -10832,18 +10832,19 @@ inner-info-left ul li span{}
   display: flex;
     gap: 20px;
     align-items: center;
-    padding: 30px 0px 0px 30px;
+    padding: 30px 0px 10px 30px;
     border-radius: 10px 10px 0px 0px;
     position:relative
 }
 .business-app-card>.app-head>figure::after{
   content: '';
     position: absolute;
-    background: #645493;
+    mix-blend-mode: overlay;
+    background-image: linear-gradient(140deg, #fff -54%, rgba(255, 255, 255, 0) 77%);
     width: 50px;
     height: 50px;
     left: -4px;
-    bottom: -15px;
+    bottom: -25px;
     border-radius: 50%;
     z-index: -1;
 }
@@ -10856,7 +10857,7 @@ inner-info-left ul li span{}
   left: 26px;
   bottom: -15px;
   border-radius: 50%;
-  z-index: -1;
+  z-index: 1;
 }
 .business-app-card>.app-head>figure{
   position:relative;
@@ -10864,19 +10865,187 @@ inner-info-left ul li span{}
 }
 
 .business-app-card>.app-head>figure>img{
-  width: 42px;
-  margin-bottom: -13px;
+  width: 35px;
+  margin-bottom: -27px;
+  margin-left: 3px;
 }
 .business-app-card>.app-head>h3{
   font-size: 22px;
   font-weight: 600;
   color: #fff;
+  position: relative;
+    top: 8px;
 }
 .business-app-card>.app-body{
   padding: 40px 30px 40px 30px;
     background-color: #fff;
     border-radius: 0px 0px 10px 10px;
 }
+.business-app-card>.app-body>p{
+  font-size: 16px;
+  color: #443c68;
+  line-height: 1.5;
+}
+.business-app-card>.app-body> a{
+  color: #d73d3d;
+  letter-spacing: -0.32px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+.tabs-service-slide-solution>.nav-tabs{
+  border-bottom: none;
+  gap:2px;
+}
+.tabs-service-slide-solution>.nav-tabs .nav-link{
+  font-size: 18px;
+  color: #393053;
+  line-height: 1.5;
+  flex: 13.999999%;
+  max-width:13.999999%;
+  border-radius: 5px;
+  border-color: rgb(255 255 255 / 0%);
+  background-color:#efeef3
+}
+.tabs-service-slide-solution>.nav-tabs .nav-link>.rounded-circle{
+  border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    margin: 10px auto 10px;
+    display: flex;
+}
+.tabs-service-slide-solution>.nav-tabs .nav-link img{
+  width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.tabs-service-slide-solution>.nav-tabs .nav-link span{
+  font-size: 14px;
+  color: #393053;
+  letter-spacing: -0.28px;
+  display: block;
+    margin-bottom: 10px;
+}
+.tabs-service-slide-solution>.nav-tabs .nav-link.active{
+ background-color:#efeef3;
+  color:#ffffff;
+  font-weight: 400;
+  border-color: #393053;
+}
+.tabs-service-slide-solution>.nav-tabs .nav-link:hover{
+ 
+}
+.tabs-service-slide-solution>.tab-content{
+
+}
+.tab-industry-contant-one{
+  display: flex;
+gap:40px;
+align-items:center;
+position:relative;
+overflow:hidden
+}
+.tab-industry-contant-one .left-sect{
+  flex: 55%;
+  max-width: 55%;
+  padding: 40px 60px;
+  border-radius: 10px 0px 0px 10px;
+}
+.tab-industry-contant-one .right-sect{
+  flex: 45%;
+  max-width: 45%;
+}
+figure{
+  margin: 0 0 0rem;
+}
+.tab-industry-contant-one .left-sect img{
+  margin-bottom: 10px;
+}
+.tab-industry-contant-one .left-sect .inner-info-left{}
+.tab-industry-contant-one .left-sect .tags-indy{
+  display: inline-block;
+    padding: 8px 30px;
+    background: #efeef3;
+    margin-bottom:27px
+}
+.tab-industry-contant-one .left-sect .tags-indy span{
+  font-size: 14px;
+    letter-spacing: -0.28px;
+    color: #393053;
+    font-weight:500
+}
+.tab-industry-contant-one .left-sect .inner-info-left h3{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #393053;
+  margin-bottom:20px;
+}
+.tab-industry-contant-one .left-sect .inner-info-left p{
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #443c68;
+  margin-bottom:20px;
+}
+.tab-industry-contant-one .left-sect .inner-info-left ul{
+  padding-left: 0;
+}
+.tab-industry-contant-one .left-sect .inner-info-left ul li{
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #393053;
+  display: flex;
+  gap: 15px;
+}
+.tab-industry-contant-one .left-sect .inner-info-left .lins-indu{
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.32px;
+  color: #d73d3d;
+}
+.tab-industry-contant-one .left-sect .inner-info-left .lins-indu:hover{
+  
+}
+
+.tab-industry-contant-one .right-sect .d-colomn img{
+  margin-right:20px;
+}
+
+.tab-industry-contant-one .right-sect .d-colomn .video-industr-sect{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.business-app-card>.app-body> a:hover{}
 @media (max-width:1400px){
   .tabs-service-slide>.nav-tabs .nav-link{
     max-width: 15.5%;
