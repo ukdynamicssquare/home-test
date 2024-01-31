@@ -981,27 +981,172 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="tab-pane fade" id="nav-industry-two" role="tabpanel" aria-labelledby="nav-industry-two-tab">
-                   
+                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                    <div className="tab-industry-contant-one">
+                     
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                <source src="/video/rocket.mp4" />
+              </video>
+                        </div>
+                        
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>Not For Profit</span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
+                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                          </ul>
+                          <a href="" className="lins-indu">Know more about solutions</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                   </div>
 
                   <div className="tab-pane fade" id="nav-industry-three" role="tabpanel" aria-labelledby="nav-industry-three-tab">
-                   
+                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                    <div className="tab-industry-contant-one">
+                     
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                <source src="/video/rocket.mp4" />
+              </video>
+                        </div>
+                        
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>Not For Profit</span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
+                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                          </ul>
+                          <a href="" className="lins-indu">Know more about solutions</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                   </div>
 
                   <div className="tab-pane fade" id="nav-industry-four" role="tabpanel" aria-labelledby="nav-industry-four-tab">
                     
-
+                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                    <div className="tab-industry-contant-one">
+                     
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                <source src="/video/rocket.mp4" />
+              </video>
+                        </div>
+                        
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>Not For Profit</span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
+                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                          </ul>
+                          <a href="" className="lins-indu">Know more about solutions</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   </div>
 
                   <div className="tab-pane fade" id="nav-industry-five" role="tabpanel" aria-labelledby="nav-industry-five-tab">
                     
-
+                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                    <div className="tab-industry-contant-one">
+                     
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                <source src="/video/rocket.mp4" />
+              </video>
+                        </div>
+                        
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>Not For Profit</span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
+                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                          </ul>
+                          <a href="" className="lins-indu">Know more about solutions</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   </div>
 
                   <div className="tab-pane fade" id="nav-industry-six" role="tabpanel" aria-labelledby="nav-industry-six-tab">
-                    
+                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                    <div className="tab-industry-contant-one">
+                     
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                <source src="/video/rocket.mp4" />
+              </video>
+                        </div>
+                        
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>Not For Profit</span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
+                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                          </ul>
+                          <a href="" className="lins-indu">Know more about solutions</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                   </div>
 
