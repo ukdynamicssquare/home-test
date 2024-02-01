@@ -19,7 +19,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <meta name="robots" content="noindex, nofollow" />
-          {/* <meta name="msvalidate.01" content="EE56DA95B952D734B4521A0EFA1F0E8B" />
+        <meta name="msvalidate.01" content="EE56DA95B952D734B4521A0EFA1F0E8B" />
           <meta
             name="google-site-verification"
             content="uAsN7nCfnYQszC3rCTid53T7TSRjV1aotOCInjwu6lI"
@@ -46,7 +46,7 @@ class MyDocument extends Document {
                 a.appendChild(r);
               })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
                 `}
-          </Script> */}
+          </Script> 
         </Head>
         <body>
           <Main />
