@@ -343,7 +343,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section style={{marginTop:'-60px'}}>
           <div className="containesr">
             <div className="vide-s-home">
               <video className="video-screen-home" autoPlay loop muted poster="/img/h-bnner.png">
