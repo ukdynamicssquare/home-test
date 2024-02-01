@@ -929,8 +929,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
-          <div className="container">
+        <section className='relt-pos'>
+          <div className="container rr-bg-colgr">
             <div className="row justify-content-center">
               <div className="col-lg-12">
                 <header className="section-header section-header-home">
@@ -939,7 +939,7 @@ export default function Home() {
                 </header>
               </div>
             </div>
-            <div className="row">
+            <div className="row g-66">
 
 
               <div className="tabs-service-slide-solution">
