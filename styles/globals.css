@@ -11044,7 +11044,24 @@ figure{
 
 
 
-
+.home-side-new-heading{}
+.home-side-new-heading h2{
+  font-size: 42.4px;
+  color: #393053;
+  font-weight: bold;
+}
+.home-side-new-heading p{
+  font-size: 18px;
+  color: #443c68;
+}
+.case-mor-link{
+  text-align:right
+}
+.case-mor-link a{
+  color: #d73d3d;
+  font-size: 16px;
+  font-weight: 600;
+}
 .business-app-card>.app-body> a:hover{}
 .achive-sec{
   background:#7865af;

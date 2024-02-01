@@ -1232,13 +1232,13 @@ export default function Home() {
         <section>
           <div className="container">
             <div className="row">
-              <div className="col-lg-8">
+              <div className="col-lg-9">
                 <div className="home-side-new-heading">
                   <h2>See how our customers drive impact</h2>
                   <p>By implementing Dynamics 365 Business Applications</p>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <div className="case-mor-link">
                   <a href="/case-studies/" target="blank">Read more success stories</a>
                 </div>
