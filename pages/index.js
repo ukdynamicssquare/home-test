@@ -1,12 +1,19 @@
+import React, { useRef, useState } from 'react';
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination, Autoplay, FreeMode } from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+import 'swiper/css/thumbs';
+import { FreeMode, Navigation, Thumbs } from 'swiper';
 
 export default function Home() {
+
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
   return (
     <>
       <Head>
@@ -464,7 +471,7 @@ export default function Home() {
                           <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                         </figure>
                         <div className="inner-info-left">
-                          <h3>Dynamics 365 Business Central</h3>
+                          <h3>Dynamics 365 Finance</h3>
                           <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
                           <ul>
                             <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
@@ -526,7 +533,7 @@ export default function Home() {
                           <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                         </figure>
                         <div className="inner-info-left">
-                          <h3>Dynamics 365 Business Central</h3>
+                          <h3>Dynamics 365 Sales</h3>
                           <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
                           <ul>
                             <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
@@ -588,7 +595,7 @@ export default function Home() {
                           <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                         </figure>
                         <div className="inner-info-left">
-                          <h3>Dynamics 365 Business Central</h3>
+                          <h3>Dynamics 365 Marketing</h3>
                           <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
                           <ul>
                             <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
@@ -650,7 +657,7 @@ export default function Home() {
                           <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                         </figure>
                         <div className="inner-info-left">
-                          <h3>Dynamics 365 Business Central</h3>
+                          <h3>Dynamics 365 Supply Chain</h3>
                           <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
                           <ul>
                             <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
@@ -712,7 +719,7 @@ export default function Home() {
                           <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                         </figure>
                         <div className="inner-info-left">
-                          <h3>Dynamics 365 Business Central</h3>
+                          <h3>Dynamics  Customer Service</h3>
                           <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
                           <ul>
                             <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
@@ -782,10 +789,10 @@ export default function Home() {
           <div className="container">
             <div className="row mascot-bg">
               <div className="col-lg-6">
-              <div className="mas-left">
-                 <div className="text-ar">
-                 <h3>Looking for a Dynamics 365 <br /> implementation partner?</h3>
-                  <Link href="#exampleModal">
+                <div className="mas-left">
+                  <div className="text-ar">
+                    <h3>Looking for a Dynamics 365 <br /> implementation partner?</h3>
+                    <Link href="#exampleModal">
                       <a
                         data-bs-toggle="modal"
                         className="scrollto-tops"
@@ -793,17 +800,17 @@ export default function Home() {
                         <span>Get Started <i className="bi bi-arrow-right"></i></span>
                       </a>
                     </Link>
-                 </div>
+                  </div>
                   <video className="video-l" autoPlay loop muted poster="/img/h-bnner.png">
-                <source src="/video/animation-hover.mp4" />
-              </video>
+                    <source src="/video/animation-hover.mp4" />
+                  </video>
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="mas-left-right">
                   <div className="text-ar">
-                  <h3>Want to know what more <br />Dynamics 365 can do?</h3>
-                  <Link href="#exampleModal">
+                    <h3>Want to know what more <br />Dynamics 365 can do?</h3>
+                    <Link href="#exampleModal">
                       <a
                         data-bs-toggle="modal"
                         className="scrollto-tops-right"
@@ -813,8 +820,8 @@ export default function Home() {
                     </Link>
                   </div>
                   <video className="video-r" autoPlay loop muted poster="/img/h-bnner.png">
-                <source src="/video/animation-hover.mp4" />
-              </video>
+                    <source src="/video/animation-hover.mp4" />
+                  </video>
                 </div>
               </div>
               <div className="col-lg-12">
@@ -823,10 +830,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
+
         <section className="b--colo-new">
           <div className="container">
-          <div className="row justify-content-center">
+            <div className="row justify-content-center">
               <div className="col-lg-12">
                 <header className="section-header section-header-home">
                   <h2>Microsoft Business Apps: Innovative Solutions to Boost Business Performance</h2>
@@ -838,7 +845,7 @@ export default function Home() {
                 <div className="business-app-card">
                   <div className="app-head">
                     <figure>
-                    <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                      <img src="/img/app-head-icons-1.png" alt="Implementation" />
                     </figure>
                     <h3>Implementation</h3>
                   </div>
@@ -852,7 +859,7 @@ export default function Home() {
                 <div className="business-app-card">
                   <div className="app-head">
                     <figure>
-                    <img src="/img/app-head-icons-2.png" alt="Implementation" />
+                      <img src="/img/app-head-icons-2.png" alt="Implementation" />
                     </figure>
                     <h3>Upgrade</h3>
                   </div>
@@ -866,7 +873,7 @@ export default function Home() {
                 <div className="business-app-card">
                   <div className="app-head">
                     <figure>
-                    <img src="/img/app-head-icons-3.png" alt="Implementation" />
+                      <img src="/img/app-head-icons-3.png" alt="Implementation" />
                     </figure>
                     <h3>Support</h3>
                   </div>
@@ -880,7 +887,7 @@ export default function Home() {
                 <div className="business-app-card">
                   <div className="app-head">
                     <figure>
-                    <img src="/img/app-head-icons-4.png" alt="Implementation" />
+                      <img src="/img/app-head-icons-4.png" alt="Implementation" />
                     </figure>
                     <h3>Consulting</h3>
                   </div>
@@ -894,7 +901,7 @@ export default function Home() {
                 <div className="business-app-card">
                   <div className="app-head">
                     <figure>
-                    <img src="/img/app-head-icons-5.png" alt="Implementation" />
+                      <img src="/img/app-head-icons-5.png" alt="Implementation" />
                     </figure>
                     <h3>Audit</h3>
                   </div>
@@ -908,7 +915,7 @@ export default function Home() {
                 <div className="business-app-card">
                   <div className="app-head">
                     <figure>
-                    <img src="/img/app-head-icons-6.png" alt="Implementation" />
+                      <img src="/img/app-head-icons-6.png" alt="Implementation" />
                     </figure>
                     <h3>Training</h3>
                   </div>
@@ -952,14 +959,14 @@ export default function Home() {
                 <div className="tab-content" id="nav-tabContent">
                   <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
                     <div className="tab-industry-contant-one">
-                     
+
                       <div className="right-sect">
                         <div className="d-colomn">
-                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
-                <source src="/video/rocket.mp4" />
-              </video>
+                          <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                            <source src="/video/rocket.mp4" />
+                          </video>
                         </div>
-                        
+
                       </div>
                       <div className="left-sect">
                         <div className="tags-indy">
@@ -981,172 +988,172 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="tab-pane fade" id="nav-industry-two" role="tabpanel" aria-labelledby="nav-industry-two-tab">
-                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
-                    <div className="tab-industry-contant-one">
-                     
-                      <div className="right-sect">
-                        <div className="d-colomn">
-                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
-                <source src="/video/rocket.mp4" />
-              </video>
+                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                      <div className="tab-industry-contant-one">
+
+                        <div className="right-sect">
+                          <div className="d-colomn">
+                            <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                              <source src="/video/rocket.mp4" />
+                            </video>
+                          </div>
+
                         </div>
-                        
-                      </div>
-                      <div className="left-sect">
-                        <div className="tags-indy">
-                          <span>Not For Profit</span>
-                        </div>
-                        <div className="inner-info-left">
-                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
-                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
-                          <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
-                          </ul>
-                          <a href="" className="lins-indu">Know more about solutions</a>
+                        <div className="left-sect">
+                          <div className="tags-indy">
+                            <span>Not For Profit</span>
+                          </div>
+                          <div className="inner-info-left">
+                            <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
+                            <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                            <ul>
+                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                            </ul>
+                            <a href="" className="lins-indu">Know more about solutions</a>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
 
                   </div>
 
                   <div className="tab-pane fade" id="nav-industry-three" role="tabpanel" aria-labelledby="nav-industry-three-tab">
-                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
-                    <div className="tab-industry-contant-one">
-                     
-                      <div className="right-sect">
-                        <div className="d-colomn">
-                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
-                <source src="/video/rocket.mp4" />
-              </video>
+                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                      <div className="tab-industry-contant-one">
+
+                        <div className="right-sect">
+                          <div className="d-colomn">
+                            <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                              <source src="/video/rocket.mp4" />
+                            </video>
+                          </div>
+
                         </div>
-                        
-                      </div>
-                      <div className="left-sect">
-                        <div className="tags-indy">
-                          <span>Not For Profit</span>
-                        </div>
-                        <div className="inner-info-left">
-                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
-                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
-                          <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
-                          </ul>
-                          <a href="" className="lins-indu">Know more about solutions</a>
+                        <div className="left-sect">
+                          <div className="tags-indy">
+                            <span>Not For Profit</span>
+                          </div>
+                          <div className="inner-info-left">
+                            <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
+                            <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                            <ul>
+                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                            </ul>
+                            <a href="" className="lins-indu">Know more about solutions</a>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
 
                   </div>
 
                   <div className="tab-pane fade" id="nav-industry-four" role="tabpanel" aria-labelledby="nav-industry-four-tab">
-                    
-                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
-                    <div className="tab-industry-contant-one">
-                     
-                      <div className="right-sect">
-                        <div className="d-colomn">
-                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
-                <source src="/video/rocket.mp4" />
-              </video>
+
+                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                      <div className="tab-industry-contant-one">
+
+                        <div className="right-sect">
+                          <div className="d-colomn">
+                            <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                              <source src="/video/rocket.mp4" />
+                            </video>
+                          </div>
+
                         </div>
-                        
-                      </div>
-                      <div className="left-sect">
-                        <div className="tags-indy">
-                          <span>Not For Profit</span>
-                        </div>
-                        <div className="inner-info-left">
-                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
-                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
-                          <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
-                          </ul>
-                          <a href="" className="lins-indu">Know more about solutions</a>
+                        <div className="left-sect">
+                          <div className="tags-indy">
+                            <span>Not For Profit</span>
+                          </div>
+                          <div className="inner-info-left">
+                            <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
+                            <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                            <ul>
+                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                            </ul>
+                            <a href="" className="lins-indu">Know more about solutions</a>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
                   </div>
 
                   <div className="tab-pane fade" id="nav-industry-five" role="tabpanel" aria-labelledby="nav-industry-five-tab">
-                    
-                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
-                    <div className="tab-industry-contant-one">
-                     
-                      <div className="right-sect">
-                        <div className="d-colomn">
-                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
-                <source src="/video/rocket.mp4" />
-              </video>
+
+                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                      <div className="tab-industry-contant-one">
+
+                        <div className="right-sect">
+                          <div className="d-colomn">
+                            <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                              <source src="/video/rocket.mp4" />
+                            </video>
+                          </div>
+
                         </div>
-                        
-                      </div>
-                      <div className="left-sect">
-                        <div className="tags-indy">
-                          <span>Not For Profit</span>
-                        </div>
-                        <div className="inner-info-left">
-                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
-                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
-                          <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
-                          </ul>
-                          <a href="" className="lins-indu">Know more about solutions</a>
+                        <div className="left-sect">
+                          <div className="tags-indy">
+                            <span>Not For Profit</span>
+                          </div>
+                          <div className="inner-info-left">
+                            <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
+                            <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                            <ul>
+                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                            </ul>
+                            <a href="" className="lins-indu">Know more about solutions</a>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
                   </div>
 
                   <div className="tab-pane fade" id="nav-industry-six" role="tabpanel" aria-labelledby="nav-industry-six-tab">
-                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
-                    <div className="tab-industry-contant-one">
-                     
-                      <div className="right-sect">
-                        <div className="d-colomn">
-                        <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
-                <source src="/video/rocket.mp4" />
-              </video>
+                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                      <div className="tab-industry-contant-one">
+
+                        <div className="right-sect">
+                          <div className="d-colomn">
+                            <video className="video-industr-sect" autoPlay loop muted poster="/img/h-bnner.png">
+                              <source src="/video/rocket.mp4" />
+                            </video>
+                          </div>
+
                         </div>
-                        
-                      </div>
-                      <div className="left-sect">
-                        <div className="tags-indy">
-                          <span>Not For Profit</span>
-                        </div>
-                        <div className="inner-info-left">
-                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
-                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
-                          <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
-                          </ul>
-                          <a href="" className="lins-indu">Know more about solutions</a>
+                        <div className="left-sect">
+                          <div className="tags-indy">
+                            <span>Not For Profit</span>
+                          </div>
+                          <div className="inner-info-left">
+                            <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
+                            <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                            <ul>
+                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                            </ul>
+                            <a href="#" className="lins-indu">Know more about solutions</a>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
 
                   </div>
 
@@ -1154,13 +1161,314 @@ export default function Home() {
                 </div>
               </div>
 
-
-
-
             </div>
           </div>
         </section>
+        <section className="achive-sec">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="achive-left">
+                  <h3>About Dynamics Square</h3>
+                  <p>As a Gold Microsoft Dynamics Partner, we can help you revolutionise your business processes and operations while leveraging the power of the cloud, AI, and ML.</p>
 
+                  <p>Since 2011, we have been serving our global customers, enabling them to make more profits by implementing tech-driven cloud solutions.</p>
+                  <p>We are one of the trusted dynamics consultants and certified Microsoft CRM & ERP partners, helping businesses like yours to achieve exponential growth while resolving critical business problems with 100% user satisfaction</p>
+                  <div className="btn-welcome">
+                    <Link href="#exampleModal">
+                      <a
+                        data-bs-toggle="modal"
+                        className="btn-get-started scrollto"
+                      >
+                        <span>Find out our Approach</span>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 align-self-center">
+                <figure className="acive-fig">
+                  <img src="/img/micro-about-pic.png" alt="micro-about-pic" />
+                </figure>
+              </div>
+            </div>
+            <div className="row world-achive">
+              <div className="col-lg-4">
+                <div className="w-achive-l">
+                  <figure>
+                    <img src="/img/group.png" alt="group" />
+                  </figure>
+                </div>
+                <div className="w-achive-b">
+                  <h4>350+</h4>
+                  <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="w-achive-l">
+                  <figure>
+                    <img src="/img/manage_accounts.png" alt="manage_accounts" />
+                  </figure>
+                </div>
+                <div className="w-achive-b">
+                  <h4>150+</h4>
+                  <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="w-achive-l">
+                  <figure>
+                    <img src="/img/rewarded_ads.png" alt="rewarded_ads" />
+                  </figure>
+                </div>
+                <div className="w-achive-b">
+                  <h4>12+</h4>
+                  <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8">
+                <div className="home-side-new-heading">
+                  <h2>See how our customers drive impact</h2>
+                  <p>By implementing Dynamics 365 Business Applications</p>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="case-mor-link">
+                  <a href="/case-studies/" target="blank">Read more success stories</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div className='row'>
+          <div className='col-lg-12'>
+          <div className='test-slider-tab-list'>
+            <Swiper
+                onSwiper={setThumbsSwiper}
+                spaceBetween={30}
+                slidesPerView={5}
+                freeMode={true}
+                watchSlidesProgress={true}
+                modules={[FreeMode, Navigation, Thumbs]}
+                className="mySwiper"
+              >
+                <SwiperSlide>
+                  <div className='thum-tab'>
+                    <img src="/img/timesco-logo-new.png" alt='tbalist' />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className='thum-tab'>
+                    <img src="/img/cqc-logo-1.png" alt='tbalist' />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className='thum-tab'>
+                    <img src="/img/green-star-p-logo.png" alt='tbalist' />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className='thum-tab'>
+                    <img src="/img/omicron-new-logo.png" alt='tbalist' />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className='thum-tab'>
+                    <img src="/img/green-wireless-logo.png" alt='tbalist' />
+                  </div>
+                </SwiperSlide>
+              </Swiper>
+            </div>
+
+              <div className='test-slider-contant'>
+              <Swiper
+                style={{
+                  '--swiper-navigation-color': '#fff',
+                  '--swiper-pagination-color': '#fff',
+                }}
+                spaceBetween={10}
+                navigation={true}
+                thumbs={{ swiper: thumbsSwiper }}
+                modules={[FreeMode, Navigation, Thumbs]}
+                className="mySwiper2"
+              >
+                <SwiperSlide>
+                  <div className='row'>
+                    <div className='col-lg-7'>
+                      <div className='test-s-info'>
+                        <figure>
+                          <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                          <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                          <h5>Terence Turner</h5>
+                          <span>General Manager</span>
+                        </figure>
+                      </div>
+                    </div>
+                    <div className='col-lg-5'>
+                      <div className='test-inf-achive'>
+                        <div className='f-left'>
+                          2X
+                        </div>
+                        <div className='r-left'>
+                          <p>Data Simplification & <br/>Processing</p>
+                        </div>
+                      </div>
+                      <div className='test-inf-achive'>
+                        <div className='f-left'>
+                          80%
+                        </div>
+                        <div className='r-left'>
+                          <p>Increased sales Revenue</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className='row'>
+                    <div className='col-lg-7'>
+                      <div className='test-s-info'>
+                        <figure>
+                          <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                          <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                          <h5>Terence Turner</h5>
+                          <span>General Manager</span>
+                        </figure>
+                      </div>
+                    </div>
+                    <div className='col-lg-5'>
+                      <div className='test-inf-achive'>
+                        <div className='f-left'>
+                          2X
+                        </div>
+                        <div className='r-left'>
+                          <p>Data Simplification & <br/>Processing</p>
+                        </div>
+                      </div>
+                      <div className='test-inf-achive'>
+                        <div className='f-left'>
+                          80%
+                        </div>
+                        <div className='r-left'>
+                          <p>Increased sales Revenue</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className='row'>
+                    <div className='col-lg-7'>
+                      <div className='test-s-info'>
+                        <figure>
+                          <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                          <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                          <h5>Terence Turner</h5>
+                          <span>General Manager</span>
+                        </figure>
+                      </div>
+                    </div>
+                    <div className='col-lg-5'>
+                      <div className='test-inf-achive'>
+                        <div className='f-left'>
+                          2X
+                        </div>
+                        <div className='r-left'>
+                          <p>Data Simplification & <br/>Processing</p>
+                        </div>
+                      </div>
+                      <div className='test-inf-achive'>
+                        <div className='f-left'>
+                          80%
+                        </div>
+                        <div className='r-left'>
+                          <p>Increased sales Revenue</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className='row'>
+                    <div className='col-lg-7'>
+                      <div className='test-s-info'>
+                        <figure>
+                          <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                          <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                          <h5>Terence Turner</h5>
+                          <span>General Manager</span>
+                        </figure>
+                      </div>
+                    </div>
+                    <div className='col-lg-5'>
+                      <div className='test-inf-achive'>
+                        <div className='f-left'>
+                          2X
+                        </div>
+                        <div className='r-left'>
+                          <p>Data Simplification & <br/>Processing</p>
+                        </div>
+                      </div>
+                      <div className='test-inf-achive'>
+                        <div className='f-left'>
+                          80%
+                        </div>
+                        <div className='r-left'>
+                          <p>Increased sales Revenue</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className='row'>
+                    <div className='col-lg-7'>
+                      <div className='test-s-info'>
+                        <figure>
+                          <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                          <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                          <h5>Terence Turner</h5>
+                          <span>General Manager</span>
+                        </figure>
+                      </div>
+                    </div>
+                    <div className='col-lg-5'>
+                      <div className='test-inf-achive'>
+                        <div className='f-left'>
+                          2X
+                        </div>
+                        <div className='r-left'>
+                          <p>Data Simplification & <br/>Processing</p>
+                        </div>
+                      </div>
+                      <div className='test-inf-achive'>
+                        <div className='f-left'>
+                          80%
+                        </div>
+                        <div className='r-left'>
+                          <p>Increased sales Revenue</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+
+              </Swiper>
+              </div>
+          </div>
+
+
+            </div>
+
+
+          </div>
+        </section>
       </main>
     </>
   );
