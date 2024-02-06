@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { FreeMode, Navigation, Thumbs } from 'swiper';
 
+
 export default function Home() {
 
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -306,12 +307,9 @@ export default function Home() {
             <div className="row justify-content-center">
               <div className="col-lg-10 text-center">
                 <h1 data-aos="fade-up">
-                  UK's <span>Trusted</span>  Microsoft <br /> Dynamics 365 Partner
+                  UK's <span>Trusted</span>  Microsoft <br /> Cloud Solutions Partner
                 </h1>
-                <p>
-                  Simplify your end-to-end business processes to maximise ROI,
-                  agility, and growth with Microsoft cloud technology.
-                </p>
+                <p>Being reckoned as a leading Microsoft Dynamics 365 partner, and new-gen technology innovator, Dynamics Square holds expertise in AI, advanced automation, cloud solutions, training, and consulting.</p>
                 <div>
                   <div className="text-center btn-welcome">
                     <Link href="#exampleModal">
@@ -345,13 +343,62 @@ export default function Home() {
 
         <section style={{marginTop:'-60px'}}>
           <div className="containesr">
+                  <header className="section-header section-header-home">
+                  <h2>Connected in Every Way. Always.</h2>
+                  <p>Seamlessly Connected to Microsoft Apps - All United in One Place</p>
+                </header>
+             
+             {/* <HoverSvg /> */}
+
+            <div className='bb-inns'>
+              <ul>
+                <li><a href="">Office 365</a></li>
+                <li><a href="">Copilot</a></li>
+                <li><a href="">Dynamics 365</a></li>
+                <li><a href="">Power Platform</a></li>
+                <li><a href="">Azur Cloude Service</a></li>
+              </ul>
+            </div>
             <div className="vide-s-home">
+              
               <video className="video-screen-home" autoPlay loop muted poster="/img/h-bnner.png">
                 <source src="/video/home-video.mp4" />
               </video>
             </div>
           </div>
         </section>
+        <section>
+        {/* <div className='container'>
+          <div className='row'>
+            <div className='col-lg-12'>
+              <div className='testing-h'>
+                <ul>
+                  <li>
+                  <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  <h3><a href=''>Dynamics 365</a></h3>
+                  </li>
+                  <li>
+                  <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  <h3><a href=''>Dynamics 365</a></h3>
+                  </li>
+                  <li>
+                  <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  <h3><a href=''>Dynamics 365</a></h3>
+                  </li>
+                  <li>
+                  <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  <h3><a href=''>Dynamics 365</a></h3>
+                  </li>
+                  <li>
+                  <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  <h3><a href=''>Dynamics 365</a></h3>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div> */}
+      </section>
 
 
 
@@ -360,8 +407,8 @@ export default function Home() {
             <div className="row justify-content-center">
               <div className="col-lg-12">
                 <header className="section-header section-header-home">
-                  <h2>500+ Global Businesses Trust Dynamics Square</h2>
-                  <p>Our AI-driven Microsoft Cloud Solutions are helping 500+ worldwide businesses grow and scale at a rapid <br /> rate, leveraging digital transformation.</p>
+                  <h2>350+ Businesses Rely on Dynamics Square </h2>
+                  <p><strong>Long-term commitment is at the heart of our mission</strong>: Formed in the year 2011, we have come a long way by building trust among 350+ clients as a reliable Microsoft Dynamics Solution Partner. We take pride in helping organizations succeed and adapt continuously, with Microsoft Dynamics 365 Product Suite.</p>
                 </header>
               </div>
             </div>
@@ -391,12 +438,24 @@ export default function Home() {
 
               <div className="tabs-service-slide">
                 <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">
-                  <button className="nav-link active" id="nav-service-one-tab" data-bs-toggle="tab" data-bs-target="#nav-service-one" type="button" role="tab" aria-controls="nav-service-one" aria-selected="true">Dynamics 365 <br /> Business Central</button>
-                  <button className="nav-link" id="nav-service-two-tab" data-bs-toggle="tab" data-bs-target="#nav-service-two" type="button" role="tab" aria-controls="nav-service-two" aria-selected="true">Dynamics 365 <br /> Finance</button>
-                  <button className="nav-link" id="nav-service-three-tab" data-bs-toggle="tab" data-bs-target="#nav-service-three" type="button" role="tab" aria-controls="nav-service-three" aria-selected="true">Dynamics 365 <br /> Sales</button>
-                  <button className="nav-link" id="nav-service-four-tab" data-bs-toggle="tab" data-bs-target="#nav-service-four" type="button" role="tab" aria-controls="nav-service-four" aria-selected="true">Dynamics 365 <br /> Marketing</button>
-                  <button className="nav-link" id="nav-service-five-tab" data-bs-toggle="tab" data-bs-target="#nav-service-five" type="button" role="tab" aria-controls="nav-service-five" aria-selected="true">Dynamics 365 <br /> Supply Chain</button>
-                  <button className="nav-link" id="nav-service-six-tab" data-bs-toggle="tab" data-bs-target="#nav-service-six" type="button" role="tab" aria-controls="nav-service-six" aria-selected="true">Dynamics 365 <br /> Customer Service</button>
+                  <button className="nav-link active" id="nav-service-one-tab" data-bs-toggle="tab" data-bs-target="#nav-service-one" type="button" role="tab" aria-controls="nav-service-one" aria-selected="true"><figure>
+                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                        </figure> Business Central</button>
+                  <button className="nav-link" id="nav-service-two-tab" data-bs-toggle="tab" data-bs-target="#nav-service-two" type="button" role="tab" aria-controls="nav-service-two" aria-selected="true"><figure>
+                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                        </figure> Finance</button>
+                  <button className="nav-link" id="nav-service-three-tab" data-bs-toggle="tab" data-bs-target="#nav-service-three" type="button" role="tab" aria-controls="nav-service-three" aria-selected="true"><figure>
+                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                        </figure> Sales</button>
+                  <button className="nav-link" id="nav-service-four-tab" data-bs-toggle="tab" data-bs-target="#nav-service-four" type="button" role="tab" aria-controls="nav-service-four" aria-selected="true"><figure>
+                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                        </figure> Marketing</button>
+                  <button className="nav-link" id="nav-service-five-tab" data-bs-toggle="tab" data-bs-target="#nav-service-five" type="button" role="tab" aria-controls="nav-service-five" aria-selected="true"><figure>
+                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                        </figure> Supply Chain</button>
+                  <button className="nav-link" id="nav-service-six-tab" data-bs-toggle="tab" data-bs-target="#nav-service-six" type="button" role="tab" aria-controls="nav-service-six" aria-selected="true"><figure>
+                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                        </figure> Customer Service</button>
 
 
 
@@ -406,17 +465,15 @@ export default function Home() {
                   <div className="tab-pane fade active show" id="nav-service-one" role="tabpanel" aria-labelledby="nav-service-one-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
-                        <figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure>
                         <div className="inner-info-left">
-                          <h3>Dynamics 365 Business Central</h3>
-                          <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
+                          <h3>Smart AI-enabled ERP for SMBs</h3>
+                          <p>Drive success by outperforming smartly with an ERP incorporated by 96 % of Fortune 500 companies. </p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Gain insights with integrated financial tools in Business Central</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Grow confidently with Business Central's flexible platform</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Make informed decisions with embedded data analytics.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Streamline operations with advanced AI and automated workflows.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Eliminate manual data entry and app-switching.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Discover cloud-based accessibility, enabling access from any location in the world.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Maximize revenue with accurate cash flow projections, ensuring financial stability.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Protect sensitive information with elevated security innovation. </span></li>
                           </ul>
                         </div>
                       </div>
@@ -424,31 +481,31 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
-                            <span>Integrated Business Processes</span>
+                            <span>Cloud-Enabled Growth</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
-                            <span>Enhanced Productivity</span>
+                            <span>AI-Powered Efficiency</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/data_exploration.png" alt="data_exploration" />
-                            <span>Data-Driven Decision-Making</span>
+                            <span>Work on the Move</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
-                            <span>Scalability and Flexibility</span>
+                            <span>Flexible Integration</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/cloud_done.png" alt="cloud_done" />
-                            <span>Cloud-Based Accessibility</span>
+                            <span>Intelligent Decision Making </span>
                           </figure>
                         </div>
                         <div className="bnn">
@@ -467,17 +524,16 @@ export default function Home() {
                   <div className="tab-pane fade" id="nav-service-two" role="tabpanel" aria-labelledby="nav-service-two-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
-                        <figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure>
+                        
                         <div className="inner-info-left">
-                          <h3>Dynamics 365 Finance</h3>
-                          <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
+                          <h3>Powerful & Proven Financial Business Solutions globally acclaimed for Large Scale Businesses</h3>
+                          <p>Navigate your business with the new-age financial management Microsoft solutions.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Gain insights with integrated financial tools in Business Central</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Grow confidently with Business Central's flexible platform</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Make informed decisions with embedded data analytics.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Effectual handling of finances on a single platform</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Build resiliency through intelligent forecasting solutions.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Simplify complex billing and pricing scenarios.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Optimize monetization with AI-powered solutions.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Meet global expectations with foreign exchange support.  </span></li>
                           </ul>
                         </div>
                       </div>
@@ -485,31 +541,31 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
-                            <span>Integrated Business Processes</span>
+                            <span>Financial Ability & Agility</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
-                            <span>Enhanced Productivity</span>
+                            <span>AI-powered billing</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/data_exploration.png" alt="data_exploration" />
-                            <span>Data-Driven Decision-Making</span>
+                            <span>Predictive cash flow forecasting </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
-                            <span>Scalability and Flexibility</span>
+                            <span>Away from disjointed financial processes </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/cloud_done.png" alt="cloud_done" />
-                            <span>Cloud-Based Accessibility</span>
+                            <span>Unified data from Microsoft AppSource </span>
                           </figure>
                         </div>
                         <div className="bnn">
@@ -529,17 +585,16 @@ export default function Home() {
                   <div className="tab-pane fade" id="nav-service-three" role="tabpanel" aria-labelledby="nav-service-three-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
-                        <figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure>
+                        
                         <div className="inner-info-left">
-                          <h3>Dynamics 365 Sales</h3>
-                          <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
+                          <h3>Next-gen AI sales solutions to accelerate revenue and customer relationships</h3>
+                          <p>Simplify sales process with AI, automation, and real-time insights. Gear up with a high-powered CRM solution dedicated to empowering your team and clients.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Gain insights with integrated financial tools in Business Central</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Grow confidently with Business Central's flexible platform</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Make informed decisions with embedded data analytics.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Use Copilot to reduce mundane tasks </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Ease selling with intelligent customer insights </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Meet customer’s preferences with personalized interactions</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Filter the right customers with AI-based scoring and visualizations</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Integrated sales processes within the Microsoft Ecosystem</span></li>
                           </ul>
                         </div>
                       </div>
@@ -547,31 +602,31 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
-                            <span>Integrated Business Processes</span>
+                            <span>AI-powered Sales Automation </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
-                            <span>Enhanced Productivity</span>
+                            <span>Easy Integration within the Dynamics 365 Apps </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/data_exploration.png" alt="data_exploration" />
-                            <span>Data-Driven Decision-Making</span>
+                            <span>Data-driven sales strategies for enhanced performance</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
-                            <span>Scalability and Flexibility</span>
+                            <span>Real-time insights for informed decision making</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/cloud_done.png" alt="cloud_done" />
-                            <span>Cloud-Based Accessibility</span>
+                            <span>Shorten sales cycle using AI </span>
                           </figure>
                         </div>
                         <div className="bnn">
@@ -591,17 +646,16 @@ export default function Home() {
                   <div className="tab-pane fade" id="nav-service-four" role="tabpanel" aria-labelledby="nav-service-four-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
-                        <figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure>
+                        
                         <div className="inner-info-left">
-                          <h3>Dynamics 365 Marketing</h3>
-                          <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
+                          <h3>Fuel Up your marketing team to generate and distribute out-of-the-box campaigns across several media</h3>
+                          <p>Track potential leads, schedule viral events, and monitor every activity and performance with advanced tools.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Gain insights with integrated financial tools in Business Central</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Grow confidently with Business Central's flexible platform</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Make informed decisions with embedded data analytics.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Personalize customer journeys with targeted marketing campaigns.y</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Measure and optimize campaign performance in real-time.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Seamlessly integrate marketing efforts with sales and customer service.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Easy monitoring of multi-channel campaigns.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Efficient lead conversions. </span></li>
                           </ul>
                         </div>
                       </div>
@@ -609,31 +663,31 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
-                            <span>Integrated Business Processes</span>
+                            <span>Streamlined brand experiential journey </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
-                            <span>Enhanced Productivity</span>
+                            <span>Simplified multi-channel campaigns</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/data_exploration.png" alt="data_exploration" />
-                            <span>Data-Driven Decision-Making</span>
+                            <span>Ai-powered customer insights </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
-                            <span>Scalability and Flexibility</span>
+                            <span>Scalable marketing automation</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/cloud_done.png" alt="cloud_done" />
-                            <span>Cloud-Based Accessibility</span>
+                            <span>Real-time performance monitoring</span>
                           </figure>
                         </div>
                         <div className="bnn">
@@ -653,17 +707,16 @@ export default function Home() {
                   <div className="tab-pane fade" id="nav-service-five" role="tabpanel" aria-labelledby="nav-service-five-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
-                        <figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure>
+                        
                         <div className="inner-info-left">
-                          <h3>Dynamics 365 Supply Chain</h3>
-                          <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
+                          <h3>Drive real change; get disruption ready with intelligent solution</h3>
+                          <p>Optimize your supply chain operations with Dynamic 365 Supply Chain, an intelligent solution that offers end-to-end operational excellence.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Gain insights with integrated financial tools in Business Central</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Grow confidently with Business Central's flexible platform</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Make informed decisions with embedded data analytics.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Proactively manage inventory and demand to meet customer expectations.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Streamline procurement processes for cost savings and supply chain resilience.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Refrain stockouts with automated inventory placement using Copilot.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Leverage predictive analytics to mitigate supply risks.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Integrate vendor networks for seamless collaboration.</span></li>
                           </ul>
                         </div>
                       </div>
@@ -671,31 +724,31 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
-                            <span>Integrated Business Processes</span>
+                            <span>Unmatched Cybersecurity  </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
-                            <span>Enhanced Productivity</span>
+                            <span>Proactive Inventory Management </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/data_exploration.png" alt="data_exploration" />
-                            <span>Data-Driven Decision-Making</span>
+                            <span>Warehouse Optimization </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
-                            <span>Scalability and Flexibility</span>
+                            <span>Agile Manufacturing Practices </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/cloud_done.png" alt="cloud_done" />
-                            <span>Cloud-Based Accessibility</span>
+                            <span>Minimize downtime using mobile devices. </span>
                           </figure>
                         </div>
                         <div className="bnn">
@@ -715,17 +768,16 @@ export default function Home() {
                   <div className="tab-pane fade" id="nav-service-six" role="tabpanel" aria-labelledby="nav-service-six-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
-                        <figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure>
+                        
                         <div className="inner-info-left">
-                          <h3>Dynamics  Customer Service</h3>
-                          <p>Drive an efficient business model on the cloud while keeping real-time eyes on your sales insights, effectively manage your finance, and ensure a sound customer experience.</p>
+                          <h3>Take your customer service experience to another level with Dynamic 365 Customer Service. </h3>
+                          <p>Pace your growth with seamless support, personalized interactions, AI-driven automation, and proactive engagement.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Optimizes and simplifies business processes for enhanced efficiency</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Gain insights with integrated financial tools in Business Central</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Grow confidently with Business Central's flexible platform</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Make informed decisions with embedded data analytics.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Advanced service delivery tracking and placements</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Deliver consistent support across multiple channels </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Personalize customer interactions through ai-powered recommendations.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Improved innovation with real-time feedback and analysis.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Enable self-service options for faster issue resolution.</span></li>
                           </ul>
                         </div>
                       </div>
@@ -733,31 +785,31 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
-                            <span>Integrated Business Processes</span>
+                            <span>Seamless Support</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
-                            <span>Enhanced Productivity</span>
+                            <span>Enhanced Customer Accessibility</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/data_exploration.png" alt="data_exploration" />
-                            <span>Data-Driven Decision-Making</span>
+                            <span>AI-Driven Personalization for Customers </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
-                            <span>Scalability and Flexibility</span>
+                            <span>Proactive Issue Resolution</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/cloud_done.png" alt="cloud_done" />
-                            <span>Cloud-Based Accessibility</span>
+                            <span>Knowledge Management </span>
                           </figure>
                         </div>
                         <div className="bnn">
@@ -836,7 +888,8 @@ export default function Home() {
             <div className="row justify-content-center">
               <div className="col-lg-12">
                 <header className="section-header section-header-home">
-                  <h2>Microsoft Business Apps: Innovative Solutions to Boost Business Performance</h2>
+                  <h2>Reimagine your Business growing at scale </h2>
+                  <p>Create a breakthrough with Dynamics Square’s expertise in delivering the right implementation, upgrade or support services. Know what your business needs. </p>
                 </header>
               </div>
             </div>
@@ -850,8 +903,8 @@ export default function Home() {
                     <h3>Implementation</h3>
                   </div>
                   <div className="app-body">
-                    <p>Supercharge your business efficiency with Dynamics 365 implementation services. Unify data, robust cloud security, simplify business operations, and automate workflows to minimize your IT costs.</p>
-                    <a href="">CTA button</a>
+                    <p>Elevate your business with AI workflows you can trust with Dynamics 365 Implementation. Unify Data, Ensure cloud security, successful business operations and more. </p>
+                    <a href="">Learn More </a>
                   </div>
                 </div>
               </div>
@@ -864,8 +917,8 @@ export default function Home() {
                     <h3>Upgrade</h3>
                   </div>
                   <div className="app-body">
-                    <p>Modernize your business by utilizing cloud CRM and ERP solutions with Dynamics 365 Upgrade Services. We assess, recommend, and upgrade your legacy solution to garner more growth opportunities.</p>
-                    <a href="">CTA button</a>
+                    <p>Drive Impact by maximizing with Dynamics 365 Upgrade Servies. Trust us whilst we upgrade your legacy system as we ensure seamless transitions and minimal disruptions to your operations.</p>
+                    <a href="">Learn More </a>
                   </div>
                 </div>
               </div>
@@ -878,8 +931,8 @@ export default function Home() {
                     <h3>Support</h3>
                   </div>
                   <div className="app-body">
-                    <p>Get seamless Dynamics 365 Support services for consistent business growth, irrespective of complexities. 150+ technical consultants are available to offer personalized support at a cost-effective pricing structure.</p>
-                    <a href="">CTA button</a>
+                    <p>Ensure long-term benefits and support as our seasoned team strives to be there for any query, resolution, training, implementation and more. </p>
+                    <a href="">Learn More </a>
                   </div>
                 </div>
               </div>
@@ -892,8 +945,8 @@ export default function Home() {
                     <h3>Consulting</h3>
                   </div>
                   <div className="app-body">
-                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
-                    <a href="">CTA button</a>
+                    <p>Leverage industry expertise, best practices, and emerging trends to help you navigate complex challenges, identify opportunities, and make informed decisions. </p>
+                    <a href="">Learn More </a>
                   </div>
                 </div>
               </div>
@@ -906,8 +959,8 @@ export default function Home() {
                     <h3>Audit</h3>
                   </div>
                   <div className="app-body">
-                    <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
-                    <a href="">CTA button</a>
+                    <p>Let our more than two decades of experienced auditors conduct thorough assessments of your systems and processes, and identify vulnerabilities, gaps, and areas for improvement. </p>
+                    <a href="">Learn More </a>
                   </div>
                 </div>
               </div>
@@ -920,8 +973,8 @@ export default function Home() {
                     <h3>Training</h3>
                   </div>
                   <div className="app-body">
-                    <p>Reap utmost value by utilizing advanced features from your newly installed business solutions. We embrace a 360-degree training approach to help you achieve maximum results.</p>
-                    <a href="">CTA button</a>
+                    <p>Experience in-person training sessions, and experimental training modules, helping your business to grow as per the shift in the market. </p>
+                    <a href="">Learn More </a>
                   </div>
                 </div>
               </div>
@@ -934,8 +987,8 @@ export default function Home() {
             <div className="row justify-content-center">
               <div className="col-lg-12">
                 <header className="section-header section-header-home">
-                  <h2>Microsoft Business Apps: Innovative <br /> Solutions to Boost Business Performance</h2>
-                  <p>Microsoft business applications offer various efficient solutions for better ROI, including ERP <br /> (Dynamics NAV, AX), CRM (Dynamics 365 CE), and Power Platform (Power BI implementation).</p>
+                  <h2>Become An Industry Leader</h2>
+                  <p>By implementing Dynamics 365 Business Applications.</p>
                 </header>
               </div>
             </div>
@@ -970,17 +1023,17 @@ export default function Home() {
                       </div>
                       <div className="left-sect">
                         <div className="tags-indy">
-                          <span>Not For Profit</span>
+                          <span>StartUp</span>
                         </div>
                         <div className="inner-info-left">
-                          <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
-                          <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                          <h3>Committing to helping your business stay relevant</h3>
+                          <p>Grow by Incorporating digital business strategy, customer experience, marketing modernization, and Data and AI expertise with Microsoft's business solutions.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Marketing Campaigns</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Automated Workflows</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Program Dashboard </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Financial Analysis</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Informed Decision Making</span></li>
                           </ul>
                           <a href="" className="lins-indu">Know more about solutions</a>
                         </div>
@@ -1004,14 +1057,14 @@ export default function Home() {
                             <span>Not For Profit</span>
                           </div>
                           <div className="inner-info-left">
-                            <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
-                            <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                            <h3>Witness the Growth of Substance with Government-Specific ERP Solutions</h3>
+                            <p>Make your vision a reality by ensuring the desired performance.</p>
                             <ul>
-                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management </span></li>
                               <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Action Dashboard</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Consumer Marketing Journey</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Analysis of the Impact Created</span></li>
                             </ul>
                             <a href="" className="lins-indu">Know more about solutions</a>
                           </div>
@@ -1035,17 +1088,17 @@ export default function Home() {
                         </div>
                         <div className="left-sect">
                           <div className="tags-indy">
-                            <span>Not For Profit</span>
+                            <span>E-commerce </span>
                           </div>
                           <div className="inner-info-left">
-                            <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
-                            <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                            <h3>Visualize Success and drive growth in today's competitive market</h3>
+                            <p>Delivering exceptional experiences to meet the evolving needs of e-commerce businesses.</p>
                             <ul>
-                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Integration with eCommerce platforms</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Unified customer data</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Streamlined order management.</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Flawless support across channels</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Automated leads, and sales generation</span></li>
                             </ul>
                             <a href="" className="lins-indu">Know more about solutions</a>
                           </div>
@@ -1070,17 +1123,17 @@ export default function Home() {
                         </div>
                         <div className="left-sect">
                           <div className="tags-indy">
-                            <span>Not For Profit</span>
+                            <span>Manufacturing </span>
                           </div>
                           <div className="inner-info-left">
-                            <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
-                            <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                            <h3>Visualize Success: Transform Your Manufacturing Operations</h3>
+                            <p>Time to drive innovation across the manufacturing value chain.</p>
                             <ul>
-                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>1.	Integrated Data Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>2.	Demand Forecasting and Planning</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>3.	End-to-End Visibility</span></li>
                               <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>4.	Schedule preventive maintenance activities, and minimize unplanned downtime.</span></li>
                             </ul>
                             <a href="" className="lins-indu">Know more about solutions</a>
                           </div>
@@ -1104,17 +1157,17 @@ export default function Home() {
                         </div>
                         <div className="left-sect">
                           <div className="tags-indy">
-                            <span>Not For Profit</span>
+                            <span>Education</span>
                           </div>
                           <div className="inner-info-left">
-                            <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
-                            <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                            <h3>Let the Future of the Education Industry Be in Your Hands </h3>
+                            <p>Utilize Microsoft's Dynamics 365 suite to revolutionize and empower the education realm.</p>
                             <ul>
-                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Inclusive learning environments </span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Future-proof the admin operations.</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Student Information Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Alumni Relations and Fundraising</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Administration Management </span></li>
                             </ul>
                             <a href="" className="lins-indu">Know more about solutions</a>
                           </div>
@@ -1137,17 +1190,16 @@ export default function Home() {
                         </div>
                         <div className="left-sect">
                           <div className="tags-indy">
-                            <span>Not For Profit</span>
+                            <span>Food & Beverage</span>
                           </div>
                           <div className="inner-info-left">
-                            <h3>Execute administrative policies with Government-specific Microsoft ERP solutions</h3>
-                            <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                            <h3>Ease Away to Gastronomical Glory </h3>
+                            <p>Manage operations, including inventory, sales, customer relationships, and financials.</p>
                             <ul>
-                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Engagement</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Program Impact Dashboard</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Optimize replenishment processes.</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Recipe and Formula Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Production Planning and Scheduling </span></li>
+                          
                             </ul>
                             <a href="#" className="lins-indu">Know more about solutions</a>
                           </div>
@@ -1469,6 +1521,11 @@ export default function Home() {
 
           </div>
         </section>
+
+
+     
+
+
       </main>
     </>
   );
