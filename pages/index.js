@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState,useEffect  } from 'react';
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,11 +9,15 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { FreeMode, Navigation, Thumbs } from 'swiper';
+import ExpandableCard from '../components/ExpandableCard';
 
 
 export default function Home() {
 
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
+
+
 
   return (
     <>
@@ -302,6 +306,10 @@ export default function Home() {
         />
       </Head>
       <main>
+  
+
+
+
         <section id="h-banner" className="hero hero-home">
           <div className="container">
             <div className="row justify-content-center">
@@ -341,7 +349,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section style={{marginTop:'-60px'}}>
+        <section style={{marginTop:'-60px'}} className='po-relativ'>
           <div className="containesr">
                   <header className="section-header section-header-home">
                   <h2>Connected in Every Way. Always.</h2>
@@ -349,8 +357,8 @@ export default function Home() {
                 </header>
              
              {/* <HoverSvg /> */}
-
-            <div className='bb-inns'>
+                <ExpandableCard />
+            {/* <div className='bb-inns'>
               <ul>
                 <li><a href="">Office 365</a></li>
                 <li><a href="">Copilot</a></li>
@@ -358,7 +366,7 @@ export default function Home() {
                 <li><a href="">Power Platform</a></li>
                 <li><a href="">Azur Cloude Service</a></li>
               </ul>
-            </div>
+            </div> */}
             <div className="vide-s-home">
               
               <video className="video-screen-home" autoPlay loop muted poster="/img/h-bnner.png">
