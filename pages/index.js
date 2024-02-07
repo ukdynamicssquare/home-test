@@ -349,7 +349,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section style={{marginTop:'-60px'}} className='po-relativ'>
+        <section style={{marginTop:'-20px'}} className='po-relativ'>
           <div className="containesr">
                   <header className="section-header section-header-home">
                   <h2>Connected in Every Way. Always.</h2>
@@ -375,38 +375,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-        {/* <div className='container'>
-          <div className='row'>
-            <div className='col-lg-12'>
-              <div className='testing-h'>
-                <ul>
-                  <li>
-                  <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                  <h3><a href=''>Dynamics 365</a></h3>
-                  </li>
-                  <li>
-                  <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                  <h3><a href=''>Dynamics 365</a></h3>
-                  </li>
-                  <li>
-                  <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                  <h3><a href=''>Dynamics 365</a></h3>
-                  </li>
-                  <li>
-                  <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                  <h3><a href=''>Dynamics 365</a></h3>
-                  </li>
-                  <li>
-                  <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                  <h3><a href=''>Dynamics 365</a></h3>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div> */}
-      </section>
+    
 
 
 
@@ -450,19 +419,19 @@ export default function Home() {
                           <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                         </figure> Business Central</button>
                   <button className="nav-link" id="nav-service-two-tab" data-bs-toggle="tab" data-bs-target="#nav-service-two" type="button" role="tab" aria-controls="nav-service-two" aria-selected="true"><figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                          <img src="/img/menu-icons/dynamics-365-finance.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                         </figure> Finance</button>
                   <button className="nav-link" id="nav-service-three-tab" data-bs-toggle="tab" data-bs-target="#nav-service-three" type="button" role="tab" aria-controls="nav-service-three" aria-selected="true"><figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                          <img src="/img/menu-icons/dynamics-365-sales.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                         </figure> Sales</button>
                   <button className="nav-link" id="nav-service-four-tab" data-bs-toggle="tab" data-bs-target="#nav-service-four" type="button" role="tab" aria-controls="nav-service-four" aria-selected="true"><figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                          <img src="/img/menu-icons/dynamics-365-marketing.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                         </figure> Marketing</button>
                   <button className="nav-link" id="nav-service-five-tab" data-bs-toggle="tab" data-bs-target="#nav-service-five" type="button" role="tab" aria-controls="nav-service-five" aria-selected="true"><figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                          <img src="/img/menu-icons/dynamics-365-supplychainmanagement.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                         </figure> Supply Chain</button>
                   <button className="nav-link" id="nav-service-six-tab" data-bs-toggle="tab" data-bs-target="#nav-service-six" type="button" role="tab" aria-controls="nav-service-six" aria-selected="true"><figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                          <img src="/img/menu-icons/dynamics-365-customer-engagement.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                         </figure> Customer Service</button>
 
 
