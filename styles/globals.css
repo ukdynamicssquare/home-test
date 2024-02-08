@@ -11441,6 +11441,7 @@ top: 0px;
 }
 .mas-left h3 {
   padding-left: 15px;
+  padding-bottom: 15px;
 }
 .scrollto-tops {
   margin-left: 15px;
@@ -11451,6 +11452,7 @@ top: 0px;
 .mas-left-right h3 {
   text-align: left;
   padding-left: 15px;
+  padding-bottom: 15px;
 }
 .scrollto-tops-right{
   text-align: left;
@@ -11469,6 +11471,8 @@ top: 0px;
   gap: 15px;
   padding: 0px 10px;
   justify-content: normal;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 .bg-h-color figure,.test-slider-tab-list .swiper-wrapper .swiper-slide{
 flex:1 0 75%
@@ -11478,6 +11482,9 @@ flex:1 0 75%
 }
 .test-slider-contant .test-inf-achive .f-left {
   font-size: 46px;
+}
+.hero-home {
+  padding-top: 30px;
 }
 }
 

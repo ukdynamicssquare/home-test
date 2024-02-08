@@ -849,7 +849,7 @@ export default function Home() {
                       </a>
                     </Link>
                   </div>
-                  <video className="video-l" autoPlay loop muted poster="/img/h-bnner.png">
+                  <video className="video-l" autoPlay loop muted poster="">
                     <source src="/video/animation-hover.mp4" />
                   </video>
                 </div>
@@ -867,7 +867,7 @@ export default function Home() {
                       </a>
                     </Link>
                   </div>
-                  <video className="video-r" autoPlay loop muted poster="/img/h-bnner.png">
+                  <video className="video-r" autoPlay loop muted poster="">
                     <source src="/video/animation-hover.mp4" />
                   </video>
                 </div>
