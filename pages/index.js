@@ -314,11 +314,11 @@ export default function Home() {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-10 text-center">
+                <div className='wellcome-heading-main'>
                 <h1 data-aos="fade-up">
                   UK's <span>Trusted</span>  Microsoft <br /> Cloud Solutions Partner
                 </h1>
                 <p>Being reckoned as a leading Microsoft Dynamics 365 partner, and new-gen technology innovator, Dynamics Square holds expertise in AI, advanced automation, cloud solutions, training, and consulting.</p>
-                <div>
                   <div className="text-center btn-welcome">
                     <Link href="#exampleModal">
                       <a
@@ -329,18 +329,14 @@ export default function Home() {
                       </a>
                     </Link>
                   </div>
-                  {/* <div className="bnner_inline_images">
-                  <ul>
-                    <li>
-                    <Image
-                        src="/img/Microsoft-Partner-black.png"
-                        alt="Microsoft Partner black.png"
-                        width={260}
-                        height={115}
-                      />
-                    </li>
-                  </ul>
-                </div> */}
+                  <div className='float-left-div'>
+                    <span className='train'></span>
+                   <div className='cont'><span>172%</span> ROI</div>
+                  </div>
+                  <div className='float-left-div float-right-div'>
+                    <span className='train'>4X</span>
+                   <div className='cont'><span>Improved </span>Productivity</div>
+                  </div>
                 </div>
               </div>
 
@@ -882,7 +878,7 @@ export default function Home() {
         <section className="b--colo-new">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-12">
+              <div className="col-lg-10">
                 <header className="section-header section-header-home">
                   <h2>Reimagine your Business growing at scale </h2>
                   <p>Create a breakthrough with Dynamics Square’s expertise in delivering the right implementation, upgrade or support services. Know what your business needs. </p>
@@ -999,7 +995,7 @@ export default function Home() {
         <section className='relt-pos'>
           <div className="container rr-bg-colgr">
             <div className="row justify-content-center">
-              <div className="col-lg-12">
+              <div className="col-lg-10">
                 <header className="section-header section-header-home">
                   <h2>Become An Industry Leader</h2>
                   <p>By implementing Dynamics 365 Business Applications.</p>

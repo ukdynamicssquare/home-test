@@ -10594,9 +10594,89 @@ width: 34px
 #h-banner.hero-home h1 span{
   color:#e43f5a;
 }
+
+.wellcome-heading-main{
+position:relative;
+}
+.float-left-div{
+  position: absolute;
+  top: 125px;
+  left: -120px;
+    padding: 10px 20px;
+    display: flex;
+    border-radius: 6.3px;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  box-shadow: inset 0 5.1px 5.1px 0 rgba(255, 255, 255, 0.25), inset -5.1px -5.1px 5.1px 0 rgba(255, 255, 255, 0.25), 20px 18px 26.6px 0 rgba(159, 117, 211, 0.18);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
+  align-items: center;
+  font-weight: 800;
+}
+.float-left-div .train{
+  border: 18px solid #d1cbe3;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    margin-top: -28px;
+    margin-right: 15px;
+}
+.float-left-div .cont{
+ font-size: 18px;
+ text-shadow: 0 4px 4px rgba(222, 222, 222, 0.25);
+  background-image: linear-gradient(149deg, #b7abdb -4%, #d1c7ee 72%);
+  font-family: Inter;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.float-left-div .cont span{
+  display:block;
+  font-size: 36px;
+  
+}
+.float-left-div.float-right-div{
+  top: inherit;
+  right: -120px !important;
+  left: inherit;
+  bottom:0px;
+  -webkit-animation: movers 2s infinite  alternate;
+  animation: movers 2s infinite  alternate;
+}
+.float-left-div.float-right-div .train{
+  border:none !important;
+  color: #d1cbe3;
+  text-shadow: 0 4px 4px rgba(222, 222, 222, 0.25);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: 0;
+}
+.float-left-div.float-right-div .cont,.float-left-div.float-right-div .cont span{
+  font-size: 19px !important;
+  font-weight: 800;
+}
 .section-header.section-header-home h2{
   font-size:42.4px;
   color: #393053;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes movers {
+  0% { transform: translateY(0); }
+  100% { transform: translateX(-20px); }
 }
 .section-header-home{
   padding-bottom: 50px;
