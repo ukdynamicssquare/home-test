@@ -893,9 +893,12 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="business-app-card">
                   <div className="app-head">
+                    <div className='app-hovers'>
                     <figure>
                       <img src="/img/app-head-icons-1.png" alt="Implementation" />
                     </figure>
+                        <video autoPlay muted loop src="/video/Scale-video-1.mp4" type="video/mp4"></video>
+                    </div>
                     <h3>Implementation</h3>
                   </div>
                   <div className="app-body">
@@ -907,9 +910,12 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="business-app-card">
                   <div className="app-head">
+                  <div className='app-hovers'>
                     <figure>
                       <img src="/img/app-head-icons-2.png" alt="Implementation" />
                     </figure>
+                        <video autoPlay muted loop src="/video/Scale-video-2.mp4" type="video/mp4"></video>
+                    </div>
                     <h3>Upgrade</h3>
                   </div>
                   <div className="app-body">
@@ -921,9 +927,12 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="business-app-card">
                   <div className="app-head">
+                  <div className='app-hovers'>
                     <figure>
                       <img src="/img/app-head-icons-3.png" alt="Implementation" />
                     </figure>
+                        <video autoPlay muted loop src="/video/Scale-video-3.mp4" type="video/mp4"></video>
+                    </div>
                     <h3>Support</h3>
                   </div>
                   <div className="app-body">
@@ -935,9 +944,12 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="business-app-card">
                   <div className="app-head">
+                  <div className='app-hovers'>
                     <figure>
                       <img src="/img/app-head-icons-4.png" alt="Implementation" />
                     </figure>
+                        <video autoPlay muted loop src="/video/Scale-video-4.mp4" type="video/mp4"></video>
+                    </div>
                     <h3>Consulting</h3>
                   </div>
                   <div className="app-body">
@@ -949,9 +961,12 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="business-app-card">
                   <div className="app-head">
+                  <div className='app-hovers'>
                     <figure>
                       <img src="/img/app-head-icons-5.png" alt="Implementation" />
                     </figure>
+                        <video autoPlay muted loop src="/video/Scale-video-5.mp4" type="video/mp4"></video>
+                    </div>
                     <h3>Audit</h3>
                   </div>
                   <div className="app-body">
@@ -963,9 +978,12 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="business-app-card">
                   <div className="app-head">
+                  <div className='app-hovers'>
                     <figure>
                       <img src="/img/app-head-icons-6.png" alt="Implementation" />
                     </figure>
+                        <video autoPlay muted loop src="/video/Scale-video-6.mp4" type="video/mp4"></video>
+                    </div>
                     <h3>Training</h3>
                   </div>
                   <div className="app-body">

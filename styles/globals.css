@@ -10873,31 +10873,58 @@ inner-info-left ul li span{}
 }
 .business-app-card>.app-head::after{
   content: '';
-  position: absolute;
-  background: #645493;
-  width: 50px;
-  height: 50px;
-  left: 26px;
-  bottom: -15px;
-  border-radius: 50%;
-  z-index: 1;
+    position: absolute;
+    background: #645493;
+    width: 70px;
+    height: 70px;
+    left: 19px;
+    bottom: -23px;
+    border-radius: 50%;
+    z-index: 1;
+    mix-blend-mode: darken;
 }
-.business-app-card>.app-head>figure{
+.business-app-card>.app-head>.app-hovers{
   position:relative;
-  z-index: 2;
+}
+.business-app-card>.app-head>.app-hovers>figure{
+  position: relative;
+  z-index: 4;
+  transition: all 0.4s ease-out;
+}
+.business-app-card>.app-head>.app-hovers>video{
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 0.4s ease-out;
+    top: 6px;
+    mix-blend-mode: color-dodge;
+    z-index: 2;
+}
+.business-app-card:hover .app-head>.app-hovers>video{
+  opacity: 1;
+  visibility: visible;
+}
+.business-app-card:hover .app-head>.app-hovers>figure{
+  opacity: 0;
+  visibility: hidden;
 }
 
-.business-app-card>.app-head>figure>img{
-  width: 35px;
+
+
+.business-app-card>.app-head>.app-hovers>figure>img{
+  width: 46px;
   margin-bottom: -27px;
-  margin-left: 3px;
+  /* margin-left: 3px; */
 }
 .business-app-card>.app-head>h3{
   font-size: 22px;
   font-weight: 600;
   color: #fff;
   position: relative;
-    top: 8px;
+  top: 6px;
+  left: 15px;
 }
 .business-app-card>.app-body{
   padding: 40px 30px 40px 30px;
