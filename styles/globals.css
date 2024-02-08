@@ -11483,9 +11483,13 @@ flex:1 0 75%
 .test-slider-contant .test-inf-achive .f-left {
   font-size: 46px;
 }
+#h-banner.hero-home h1 br,.section-header.section-header-home h2 br , .home-side-new-heading h2 br{
+  display:none
+}
 .hero-home {
   padding-top: 30px;
 }
+
 }
 
 
