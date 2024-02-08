@@ -20,18 +20,18 @@ export default function ExpandableCard() {
     },
     {
       name: "Copilot",
-      heading: "Progress Ahead with AI",
-      content: "Connect teams, processes, and data through CRM and ERP applications powered by AI. ",
+      heading: "Future Proof Your Business",
+      content: "Automate routine tasks with the world’s most powerful productivity tool. ",
     },
     {
       name: "Dynamics 365",
-      heading: "Revolutionize the way you work",
-      content: "Build apps, automate workflows, gain insights from data, and enhance agile efficiency. ",
+      heading: "Progress Ahead with AI",
+      content: "Connect teams, processes, and data through CRM and ERP applications powered by AI.  ",
     },
     {
       name: "Power Platform",
-      heading: "Future Proof Your Business",
-      content: "Automate routine tasks with the world’s most powerful productivity tool. ",
+      heading: "Revolutionize the way you work",
+      content: "Build apps, automate workflows, gain insights from data, and enhance agile efficiency.",
     },
     {
       name: "Azur Cloude Service",

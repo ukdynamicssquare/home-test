@@ -1,4 +1,4 @@
-import React, { useRef, useState,useEffect  } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -306,7 +306,7 @@ export default function Home() {
         />
       </Head>
       <main>
-  
+
 
 
 
@@ -349,15 +349,15 @@ export default function Home() {
           </div>
         </section>
 
-        <section style={{marginTop:'-20px'}} className='po-relativ'>
+        <section style={{ marginTop: '-20px' }} className='po-relativ'>
           <div className="containesr">
-                  <header className="section-header section-header-home">
-                  <h2>Connected in Every Way. Always.</h2>
-                  <p>Seamlessly Connected to Microsoft Apps - All United in One Place</p>
-                </header>
-             
-             {/* <HoverSvg /> */}
-                <ExpandableCard />
+            <header className="section-header section-header-home">
+              <h2>Connected in Every Way. Always.</h2>
+              <p>Seamlessly Connected to Microsoft Apps - All United in One Place</p>
+            </header>
+
+            {/* <HoverSvg /> */}
+            <ExpandableCard />
             {/* <div className='bb-inns'>
               <ul>
                 <li><a href="">Office 365</a></li>
@@ -367,22 +367,22 @@ export default function Home() {
                 <li><a href="">Azur Cloude Service</a></li>
               </ul>
             </div> */}
-            <div className="vide-s-home">
-              
+            <div className="vide-s-home" style={{ margin: '' }}>
+
               <video className="video-screen-home" autoPlay loop muted poster="/img/h-bnner.png">
                 <source src="/video/home-video.mp4" />
               </video>
             </div>
           </div>
         </section>
-    
+
 
 
 
         <section id="services" className="services home-serv-bg">
           <div className="container" data-aos="fade-up">
             <div className="row justify-content-center">
-              <div className="col-lg-12">
+              <div className="col-lg-10">
                 <header className="section-header section-header-home">
                   <h2>350+ Businesses Rely on Dynamics Square </h2>
                   <p><strong>Long-term commitment is at the heart of our mission</strong>: Formed in the year 2011, we have come a long way by building trust among 350+ clients as a reliable Microsoft Dynamics Solution Partner. We take pride in helping organizations succeed and adapt continuously, with Microsoft Dynamics 365 Product Suite.</p>
@@ -392,7 +392,17 @@ export default function Home() {
             <div className="row gy-2">
               <div className="col-lg-12">
                 <div className="bg-h-color">
-                  <img src="/img/client-logs.png" alt="client-logs" />
+                  <figure>
+                    <img src="/img/Parweld-logo.png" alt="client-logs" />
+                  </figure>
+                  <figure>
+                    <img src="/img/Meirion-Davies-logo.png" alt="client-logs" />
+                  </figure>
+                  <figure><img src="/img/Noahs-Ark-Logo.png" alt="client-logs" /></figure>
+                  <figure> <img src="/img/COMXO-LIMITED-logo.png" alt="client-logs" /></figure>
+                  <figure> <img src="/img/Ncc-education-logo.png" alt="client-logs" /></figure>
+                  {/* <img src="/img/COMXO-LIMITED-logo.png" alt="client-logs" /> */}
+
                 </div>
               </div>
             </div>
@@ -403,10 +413,10 @@ export default function Home() {
         <section>
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-12">
+              <div className="col-lg-10">
                 <header className="section-header section-header-home">
-                  <h2>Microsoft Business Apps: Innovative <br /> Solutions to Boost Business Performance</h2>
-                  <p>Microsoft business applications offer various efficient solutions for better ROI, including ERP <br /> (Dynamics NAV, AX), CRM (Dynamics 365 CE), and Power Platform (Power BI implementation).</p>
+                  <h2>Microsoft Business Apps: New Age Solutions to Drive Exponential Growth</h2>
+                  <p>The world is changing, and so is technology! If you're struggling to thrive in a fast-paced market, don't worry. Dynamics Square will address your business challenges with Microsoft Business Apps.</p>
                 </header>
               </div>
             </div>
@@ -416,23 +426,24 @@ export default function Home() {
               <div className="tabs-service-slide">
                 <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">
                   <button className="nav-link active" id="nav-service-one-tab" data-bs-toggle="tab" data-bs-target="#nav-service-one" type="button" role="tab" aria-controls="nav-service-one" aria-selected="true"><figure>
-                          <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure> Business Central</button>
+                    <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure> Business Central</button>
                   <button className="nav-link" id="nav-service-two-tab" data-bs-toggle="tab" data-bs-target="#nav-service-two" type="button" role="tab" aria-controls="nav-service-two" aria-selected="true"><figure>
-                          <img src="/img/menu-icons/dynamics-365-finance.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure> Finance</button>
-                  <button className="nav-link" id="nav-service-three-tab" data-bs-toggle="tab" data-bs-target="#nav-service-three" type="button" role="tab" aria-controls="nav-service-three" aria-selected="true"><figure>
-                          <img src="/img/menu-icons/dynamics-365-sales.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure> Sales</button>
-                  <button className="nav-link" id="nav-service-four-tab" data-bs-toggle="tab" data-bs-target="#nav-service-four" type="button" role="tab" aria-controls="nav-service-four" aria-selected="true"><figure>
-                          <img src="/img/menu-icons/dynamics-365-marketing.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure> Marketing</button>
+                    <img src="/img/menu-icons/dynamics-365-finance.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure> Finance</button>
                   <button className="nav-link" id="nav-service-five-tab" data-bs-toggle="tab" data-bs-target="#nav-service-five" type="button" role="tab" aria-controls="nav-service-five" aria-selected="true"><figure>
-                          <img src="/img/menu-icons/dynamics-365-supplychainmanagement.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure> Supply Chain</button>
+                    <img src="/img/menu-icons/dynamics-365-supplychainmanagement.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure> Supply Chain</button>
+                  <button className="nav-link" id="nav-service-three-tab" data-bs-toggle="tab" data-bs-target="#nav-service-three" type="button" role="tab" aria-controls="nav-service-three" aria-selected="true"><figure>
+                    <img src="/img/menu-icons/dynamics-365-sales.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure>Sales</button>
+                  <button className="nav-link" id="nav-service-four-tab" data-bs-toggle="tab" data-bs-target="#nav-service-four" type="button" role="tab" aria-controls="nav-service-four" aria-selected="true"><figure>
+                    <img src="/img/menu-icons/dynamics-365-marketing.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure>Marketing</button>
+                 
                   <button className="nav-link" id="nav-service-six-tab" data-bs-toggle="tab" data-bs-target="#nav-service-six" type="button" role="tab" aria-controls="nav-service-six" aria-selected="true"><figure>
-                          <img src="/img/menu-icons/dynamics-365-customer-engagement.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                        </figure> Customer Service</button>
+                    <img src="/img/menu-icons/dynamics-365-customer-engagement.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure> Customer Service</button>
 
 
 
@@ -501,7 +512,7 @@ export default function Home() {
                   <div className="tab-pane fade" id="nav-service-two" role="tabpanel" aria-labelledby="nav-service-two-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
-                        
+
                         <div className="inner-info-left">
                           <h3>Powerful & Proven Financial Business Solutions globally acclaimed for Large Scale Businesses</h3>
                           <p>Navigate your business with the new-age financial management Microsoft solutions.</p>
@@ -562,7 +573,7 @@ export default function Home() {
                   <div className="tab-pane fade" id="nav-service-three" role="tabpanel" aria-labelledby="nav-service-three-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
-                        
+
                         <div className="inner-info-left">
                           <h3>Next-gen AI sales solutions to accelerate revenue and customer relationships</h3>
                           <p>Simplify sales process with AI, automation, and real-time insights. Gear up with a high-powered CRM solution dedicated to empowering your team and clients.</p>
@@ -623,7 +634,7 @@ export default function Home() {
                   <div className="tab-pane fade" id="nav-service-four" role="tabpanel" aria-labelledby="nav-service-four-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
-                        
+
                         <div className="inner-info-left">
                           <h3>Fuel Up your marketing team to generate and distribute out-of-the-box campaigns across several media</h3>
                           <p>Track potential leads, schedule viral events, and monitor every activity and performance with advanced tools.</p>
@@ -684,7 +695,7 @@ export default function Home() {
                   <div className="tab-pane fade" id="nav-service-five" role="tabpanel" aria-labelledby="nav-service-five-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
-                        
+
                         <div className="inner-info-left">
                           <h3>Drive real change; get disruption ready with intelligent solution</h3>
                           <p>Optimize your supply chain operations with Dynamic 365 Supply Chain, an intelligent solution that offers end-to-end operational excellence.</p>
@@ -745,7 +756,7 @@ export default function Home() {
                   <div className="tab-pane fade" id="nav-service-six" role="tabpanel" aria-labelledby="nav-service-six-tab">
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
-                        
+
                         <div className="inner-info-left">
                           <h3>Take your customer service experience to another level with Dynamic 365 Customer Service. </h3>
                           <p>Pace your growth with seamless support, personalized interactions, AI-driven automation, and proactive engagement.</p>
@@ -816,6 +827,14 @@ export default function Home() {
 
         <section className="m-botom-120">
           <div className="container">
+          <div className="row justify-content-center">
+              <div className="col-lg-10">
+                <header className="section-header section-header-home">
+                  <h2>Still Not Updated with New Gen Technology?</h2>
+                  <p>Don’t Fret, I’m here to Help You Roar!</p>
+                </header>
+              </div>
+            </div>
             <div className="row mascot-bg">
               <div className="col-lg-6">
                 <div className="mas-left">
@@ -837,7 +856,7 @@ export default function Home() {
               </div>
               <div className="col-lg-6">
                 <div className="mas-left-right">
-                  <div className="text-ar">
+                  <div className="text-ar text-r-right">
                     <h3>Want to know what more <br />Dynamics 365 can do?</h3>
                     <Link href="#exampleModal">
                       <a
@@ -1176,7 +1195,7 @@ export default function Home() {
                               <li><i className="bi bi-check-circle"></i> <span>Optimize replenishment processes.</span></li>
                               <li><i className="bi bi-check-circle"></i> <span>Recipe and Formula Management</span></li>
                               <li><i className="bi bi-check-circle"></i> <span>Production Planning and Scheduling </span></li>
-                          
+
                             </ul>
                             <a href="#" className="lins-indu">Know more about solutions</a>
                           </div>
@@ -1276,221 +1295,221 @@ export default function Home() {
 
 
             <div className='row'>
-          <div className='col-lg-12'>
-          <div className='test-slider-tab-list'>
-            <Swiper
-                onSwiper={setThumbsSwiper}
-                spaceBetween={30}
-                slidesPerView={5}
-                freeMode={true}
-                watchSlidesProgress={true}
-                modules={[FreeMode, Navigation, Thumbs]}
-                className="mySwiper"
-              >
-                <SwiperSlide>
-                  <div className='thum-tab'>
-                    <img src="/img/timesco-logo-new.png" alt='tbalist' />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className='thum-tab'>
-                    <img src="/img/cqc-logo-1.png" alt='tbalist' />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className='thum-tab'>
-                    <img src="/img/green-star-p-logo.png" alt='tbalist' />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className='thum-tab'>
-                    <img src="/img/omicron-new-logo.png" alt='tbalist' />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className='thum-tab'>
-                    <img src="/img/green-wireless-logo.png" alt='tbalist' />
-                  </div>
-                </SwiperSlide>
-              </Swiper>
-            </div>
+              <div className='col-lg-12'>
+                <div className='test-slider-tab-list'>
+                  <Swiper
+                    onSwiper={setThumbsSwiper}
+                    spaceBetween={30}
+                    slidesPerView={5}
+                    freeMode={true}
+                    watchSlidesProgress={true}
+                    modules={[FreeMode, Navigation, Thumbs]}
+                    className="mySwiper"
+                  >
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/timesco-logo-new.png" alt='tbalist' />
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/cqc-logo-1.png" alt='tbalist' />
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/green-star-p-logo.png" alt='tbalist' />
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/omicron-new-logo.png" alt='tbalist' />
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/green-wireless-logo.png" alt='tbalist' />
+                      </div>
+                    </SwiperSlide>
+                  </Swiper>
+                </div>
 
-              <div className='test-slider-contant'>
-              <Swiper
-                style={{
-                  '--swiper-navigation-color': '#fff',
-                  '--swiper-pagination-color': '#fff',
-                }}
-                spaceBetween={10}
-                navigation={true}
-                thumbs={{ swiper: thumbsSwiper }}
-                modules={[FreeMode, Navigation, Thumbs]}
-                className="mySwiper2"
-              >
-                <SwiperSlide>
-                  <div className='row'>
-                    <div className='col-lg-7'>
-                      <div className='test-s-info'>
-                        <figure>
-                          <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
-                          <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
-                          <h5>Terence Turner</h5>
-                          <span>General Manager</span>
-                        </figure>
-                      </div>
-                    </div>
-                    <div className='col-lg-5'>
-                      <div className='test-inf-achive'>
-                        <div className='f-left'>
-                          2X
+                <div className='test-slider-contant'>
+                  <Swiper
+                    style={{
+                      '--swiper-navigation-color': '#fff',
+                      '--swiper-pagination-color': '#fff',
+                    }}
+                    spaceBetween={10}
+                    navigation={true}
+                    thumbs={{ swiper: thumbsSwiper }}
+                    modules={[FreeMode, Navigation, Thumbs]}
+                    className="mySwiper2"
+                  >
+                    <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                              <h5>Terence Turner</h5>
+                              <span>General Manager</span>
+                            </figure>
+                          </div>
                         </div>
-                        <div className='r-left'>
-                          <p>Data Simplification & <br/>Processing</p>
-                        </div>
-                      </div>
-                      <div className='test-inf-achive'>
-                        <div className='f-left'>
-                          80%
-                        </div>
-                        <div className='r-left'>
-                          <p>Increased sales Revenue</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                <div className='row'>
-                    <div className='col-lg-7'>
-                      <div className='test-s-info'>
-                        <figure>
-                          <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
-                          <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
-                          <h5>Terence Turner</h5>
-                          <span>General Manager</span>
-                        </figure>
-                      </div>
-                    </div>
-                    <div className='col-lg-5'>
-                      <div className='test-inf-achive'>
-                        <div className='f-left'>
-                          2X
-                        </div>
-                        <div className='r-left'>
-                          <p>Data Simplification & <br/>Processing</p>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Data Simplification & <br />Processing</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              80%
+                            </div>
+                            <div className='r-left'>
+                              <p>Increased sales Revenue</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <div className='test-inf-achive'>
-                        <div className='f-left'>
-                          80%
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                              <h5>Terence Turner</h5>
+                              <span>General Manager</span>
+                            </figure>
+                          </div>
                         </div>
-                        <div className='r-left'>
-                          <p>Increased sales Revenue</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                <div className='row'>
-                    <div className='col-lg-7'>
-                      <div className='test-s-info'>
-                        <figure>
-                          <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
-                          <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
-                          <h5>Terence Turner</h5>
-                          <span>General Manager</span>
-                        </figure>
-                      </div>
-                    </div>
-                    <div className='col-lg-5'>
-                      <div className='test-inf-achive'>
-                        <div className='f-left'>
-                          2X
-                        </div>
-                        <div className='r-left'>
-                          <p>Data Simplification & <br/>Processing</p>
-                        </div>
-                      </div>
-                      <div className='test-inf-achive'>
-                        <div className='f-left'>
-                          80%
-                        </div>
-                        <div className='r-left'>
-                          <p>Increased sales Revenue</p>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Data Simplification & <br />Processing</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              80%
+                            </div>
+                            <div className='r-left'>
+                              <p>Increased sales Revenue</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                <div className='row'>
-                    <div className='col-lg-7'>
-                      <div className='test-s-info'>
-                        <figure>
-                          <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
-                          <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
-                          <h5>Terence Turner</h5>
-                          <span>General Manager</span>
-                        </figure>
-                      </div>
-                    </div>
-                    <div className='col-lg-5'>
-                      <div className='test-inf-achive'>
-                        <div className='f-left'>
-                          2X
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                              <h5>Terence Turner</h5>
+                              <span>General Manager</span>
+                            </figure>
+                          </div>
                         </div>
-                        <div className='r-left'>
-                          <p>Data Simplification & <br/>Processing</p>
-                        </div>
-                      </div>
-                      <div className='test-inf-achive'>
-                        <div className='f-left'>
-                          80%
-                        </div>
-                        <div className='r-left'>
-                          <p>Increased sales Revenue</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                <div className='row'>
-                    <div className='col-lg-7'>
-                      <div className='test-s-info'>
-                        <figure>
-                          <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
-                          <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
-                          <h5>Terence Turner</h5>
-                          <span>General Manager</span>
-                        </figure>
-                      </div>
-                    </div>
-                    <div className='col-lg-5'>
-                      <div className='test-inf-achive'>
-                        <div className='f-left'>
-                          2X
-                        </div>
-                        <div className='r-left'>
-                          <p>Data Simplification & <br/>Processing</p>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Data Simplification & <br />Processing</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              80%
+                            </div>
+                            <div className='r-left'>
+                              <p>Increased sales Revenue</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <div className='test-inf-achive'>
-                        <div className='f-left'>
-                          80%
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                              <h5>Terence Turner</h5>
+                              <span>General Manager</span>
+                            </figure>
+                          </div>
                         </div>
-                        <div className='r-left'>
-                          <p>Increased sales Revenue</p>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Data Simplification & <br />Processing</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              80%
+                            </div>
+                            <div className='r-left'>
+                              <p>Increased sales Revenue</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                              <h5>Terence Turner</h5>
+                              <span>General Manager</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Data Simplification & <br />Processing</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              80%
+                            </div>
+                            <div className='r-left'>
+                              <p>Increased sales Revenue</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
 
-              </Swiper>
+                  </Swiper>
+                </div>
               </div>
-          </div>
 
 
             </div>
@@ -1500,7 +1519,7 @@ export default function Home() {
         </section>
 
 
-     
+
 
 
       </main>
